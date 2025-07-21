@@ -1,0 +1,97 @@
+[
+  {
+    "nome": "Lokos D'Bira",
+    "descricao": "Banda de rock de Esteio fundada em 2001. Com influências do rock clássico, blues e punk, se destaca por performances enérgicas e letras em português que abordam amor, liberdade, bebedeiras, crítica social e principalmente a noite. Conta com 5 CDs gravados e fez turnê internacional no Uruguai em 2019.",
+    "anoFundacao": 2001,
+    "anoTermino": null,
+    "avatar": "LDB",
+    "formacaoAtual": [
+      { "nome": "Gilson Loss", "funcao": "Vocal e contrabaixo" },
+      { "nome": "Luciano Iaczinski", "funcao": "Guitarra" },
+      { "nome": "Felipe Bissolotti", "funcao": "Bateria" }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/lokosdbira",
+      "youtube": "https://www.youtube.com/@lokosdbira3006",
+      "spotify": "https://open.spotify.com/intl-pt/artist/3B7QWsqyHUiT4HvLpfUg2y",
+      "site": "https://lokosdbira.com.br",
+      "facebook": "https://www.facebook.com/LokosDBiraOficial",
+      "soundcloud": "https://soundcloud.com/lokosdbira"
+    },
+    "contato": {
+      "email": "contato@lokosdbira.com.br",
+      "fone": ""
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Esteio"
+    },
+    "generos": ["rock", "blues", "punk", "underground"],
+    "complemento": "/bandas/lokos-dbira.json",
+    "ultimaAtualizacao": "2025-07-18T21:30:00Z",
+    "fontes": ["https://lokosdbira.com.br"]
+  },
+  {
+    "nome": "Flyleaves",
+    "descricao": "Banda de rock de Canoas formada em 1998, com influências do grunge de Seattle, rock de garagem dos anos 60, Beatles, Black Sabbath e Jovem Guarda. Com letras em inglês e sonoridade que varia entre melódica e caótica, já realizaram centenas de shows na região metropolitana de Porto Alegre e lançaram o EP 'Beer and Grass' (2021) e o álbum 'Disorder Gallery' (2023). Comemoram 25 anos de estrada em 2023.",
+    "anoFundacao": 1998,
+    "anoTermino": null,
+    "avatar": "FL",
+    "formacaoAtual": [
+      { "nome": "Daniel Bird", "funcao": "Voz e baixo" },
+      { "nome": "André Tomé", "funcao": "Bateria" },
+      { "nome": "Cassio Mad", "funcao": "Guitarra e voz" }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/flyleaves.band.official/",
+      "facebook": "https://www.facebook.com/flyleaves.band.official",
+      "spotify": "https://open.spotify.com/intl-pt/artist/5oMNLe3UBvEedxA1ifJEPI",
+      "site": "https://flyleaves.com.br"
+    },
+    "contato": {
+      "email": "contato@flyleaves.com.br",
+      "fone": ""
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Canoas"
+    },
+    "generos": ["rock", "grunge", "alternativo", "garage rock"],
+    "complemento": "/bandas/fly-leaves.json",
+    "ultimaAtualizacao": "2025-07-18T22:30:00Z",
+    "fontes": ["https://flyleaves.com.br"]
+  },
+  {
+    "nome": "Saudades Robson",
+    "descricao": "Para Sartre, a existência precede a essência. Dito isso, Robson existe, existiu e existirá. Mas quem, ou o que, é Robson? Uma pessoa? Uma galinha? Uma fruta? Na verdade, bem como essas perguntas, Robson não importa. O que importa é que Saudades Robson é uma banda que mistura punk, hardcore e de tudo um pouco na sua essência. Formada por Igor Guazzelli (Baixo), Rafa Celaro (Guitarra e voz), Douglas Clezar (Guitarra e voz) e Vitor Rigotti (Bateria) Saudades Robson vem pra mostrar que mesmo com pouca qualidade, é possível ser uma banda.",
+    "anoFundacao": 2010,
+    "anoTermino": null,
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb56c35bfab0f8354780e550c8",
+    "formacaoAtual": [
+      { "nome": "Rafael Celaro", "funcao": "Guitarra e voz" },
+      { "nome": "Igor Guazzelli", "funcao": "Baixo" },
+      { "nome": "Douglas Clezar", "funcao": "Guitarra e voz" },
+      { "nome": "Vitor Rigotti", "funcao": "Bateria" }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/saudadesrobson",
+      "youtube": "https://youtube.com/@saudadesrobson",
+      "spotify": "https://open.spotify.com/artist/1gnivaq9YdFovacWEa0adr"
+    },
+    "contato": {
+      "email": "sddsrobson@gmail.com",
+      "fone": ""
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": ["rock", "punk", "hardcore", "emo"],
+    "complemento": "/bandas/saudades-robson.json",
+    "ultimaAtualizacao": "2025-07-21T16:35:10Z",
+    "fontes": ["Spotify, Instagram e Youtube"]
+  }
+]

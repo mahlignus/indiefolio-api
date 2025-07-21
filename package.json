@@ -1,0 +1,35 @@
+{
+  "name": "indiefolio-api",
+  "version": "1.0.0",
+  "description": "API pública opensource para bandas independentes brasileiras",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node scripts/validate-bands.js",
+    "update-timestamps": "node scripts/update-timestamps.js",
+    "generate-changelog": "node scripts/generate-changelog.js",
+    "prepare": "husky install",
+    "pre-commit": "npm run validate && npm run update-timestamps && npm run generate-changelog"
+  },
+  "keywords": [
+    "bandas",
+    "independentes",
+    "música",
+    "brasil",
+    "opensource",
+    "api"
+  ],
+  "author": "Rafael Mahl",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "ajv": "^8.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahlignus/indiefolio-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahlignus/indiefolio-api/issues"
+  },
+  "homepage": "https://github.com/mahlignus/indiefolio-api#readme"
+}
