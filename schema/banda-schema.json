@@ -169,10 +169,9 @@
       "fontes": {
         "type": "array",
         "items": {
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         },
-        "description": "URLs das fontes de informação"
+        "description": "Fontes de informação"
       }
     }
   }

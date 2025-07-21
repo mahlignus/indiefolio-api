@@ -6,9 +6,18 @@
     "anoTermino": null,
     "avatar": "https://i.ibb.co/zHLM5Ksc/lokos.jpg",
     "formacaoAtual": [
-      { "nome": "Gilson Loss", "funcao": "Vocal e contrabaixo" },
-      { "nome": "Luciano Iaczinski", "funcao": "Guitarra" },
-      { "nome": "Felipe Bissolotti", "funcao": "Bateria" }
+      {
+        "nome": "Gilson Loss",
+        "funcao": "Vocal e contrabaixo"
+      },
+      {
+        "nome": "Luciano Iaczinski",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Felipe Bissolotti",
+        "funcao": "Bateria"
+      }
     ],
     "social": {
       "instagram": "https://www.instagram.com/lokosdbira",
@@ -27,10 +36,17 @@
       "estado": "RS",
       "cidade": "Esteio"
     },
-    "generos": ["rock", "blues", "punk", "underground"],
+    "generos": [
+      "rock",
+      "blues",
+      "punk",
+      "underground"
+    ],
     "complemento": "/bandas/lokosdbira.json",
-    "ultimaAtualizacao": "2025-07-18T21:30:00Z",
-    "fontes": ["https://lokosdbira.com.br"]
+    "ultimaAtualizacao": "2025-07-21T23:52:32.503Z",
+    "fontes": [
+      "https://lokosdbira.com.br"
+    ]
   },
   {
     "nome": "Flyleaves",
@@ -39,9 +55,18 @@
     "anoTermino": null,
     "avatar": "https://i.ibb.co/6c3JdWhh/flyleaves.jpg",
     "formacaoAtual": [
-      { "nome": "Daniel Bird", "funcao": "Voz e baixo" },
-      { "nome": "André Tomé", "funcao": "Bateria" },
-      { "nome": "Cassio Mad", "funcao": "Guitarra e voz" }
+      {
+        "nome": "Daniel Bird",
+        "funcao": "Voz e baixo"
+      },
+      {
+        "nome": "André Tomé",
+        "funcao": "Bateria"
+      },
+      {
+        "nome": "Cassio Mad",
+        "funcao": "Guitarra e voz"
+      }
     ],
     "social": {
       "instagram": "https://www.instagram.com/flyleaves.band.official/",
@@ -58,10 +83,17 @@
       "estado": "RS",
       "cidade": "Canoas"
     },
-    "generos": ["rock", "grunge", "alternativo", "garage rock"],
+    "generos": [
+      "rock",
+      "grunge",
+      "alternativo",
+      "garage rock"
+    ],
     "complemento": "/bandas/flyleaves.json",
     "ultimaAtualizacao": "2025-07-18T22:30:00Z",
-    "fontes": ["https://flyleaves.com.br"]
+    "fontes": [
+      "https://flyleaves.com.br"
+    ]
   },
   {
     "nome": "Saudades Robson",
@@ -70,10 +102,22 @@
     "anoTermino": null,
     "avatar": "https://i.scdn.co/image/ab6761610000e5eb56c35bfab0f8354780e550c8",
     "formacaoAtual": [
-      { "nome": "Rafael Celaro", "funcao": "Guitarra e voz" },
-      { "nome": "Igor Guazzelli", "funcao": "Baixo" },
-      { "nome": "Douglas Clezar", "funcao": "Guitarra e voz" },
-      { "nome": "Vitor Rigotti", "funcao": "Bateria" }
+      {
+        "nome": "Rafael Celaro",
+        "funcao": "Guitarra e voz"
+      },
+      {
+        "nome": "Igor Guazzelli",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Douglas Clezar",
+        "funcao": "Guitarra e voz"
+      },
+      {
+        "nome": "Vitor Rigotti",
+        "funcao": "Bateria"
+      }
     ],
     "social": {
       "instagram": "https://www.instagram.com/saudadesrobson",
@@ -89,9 +133,16 @@
       "estado": "RS",
       "cidade": "Porto Alegre"
     },
-    "generos": ["rock", "punk", "hardcore", "emo"],
+    "generos": [
+      "rock",
+      "punk",
+      "hardcore",
+      "emo"
+    ],
     "complemento": "/bandas/saudadesrobson.json",
     "ultimaAtualizacao": "2025-07-21T16:35:10Z",
-    "fontes": ["Spotify, Instagram e Youtube"]
+    "fontes": [
+      "Spotify, Instagram e Youtube"
+    ]
   }
 ]
