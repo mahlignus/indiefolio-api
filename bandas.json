@@ -28,7 +28,7 @@
       "cidade": "Esteio"
     },
     "generos": ["rock", "blues", "punk", "underground"],
-    "complemento": "/bandas/lokos-dbira.json",
+    "complemento": "/bandas/lokosdbira.json",
     "ultimaAtualizacao": "2025-07-18T21:30:00Z",
     "fontes": ["https://lokosdbira.com.br"]
   },
@@ -59,7 +59,7 @@
       "cidade": "Canoas"
     },
     "generos": ["rock", "grunge", "alternativo", "garage rock"],
-    "complemento": "/bandas/fly-leaves.json",
+    "complemento": "/bandas/flyleaves.json",
     "ultimaAtualizacao": "2025-07-18T22:30:00Z",
     "fontes": ["https://flyleaves.com.br"]
   },
@@ -90,7 +90,7 @@
       "cidade": "Porto Alegre"
     },
     "generos": ["rock", "punk", "hardcore", "emo"],
-    "complemento": "/bandas/saudades-robson.json",
+    "complemento": "/bandas/saudadesrobson.json",
     "ultimaAtualizacao": "2025-07-21T16:35:10Z",
     "fontes": ["Spotify, Instagram e Youtube"]
   }
