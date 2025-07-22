@@ -81,8 +81,20 @@ Cada banda possui as seguintes informações:
 ### Scripts Disponíveis
 
 ```bash
-# Validar estrutura e dados
+# Validar apenas arquivos alterados (mais rápido)
 npm run validate
+
+# Validar todos os arquivos (completo)
+npm run validate-all
+
+# Validar usando método legacy (sempre todos os arquivos)
+npm run validate-legacy
+
+# Validar apenas arquivos complementares
+npm run validate-complementary
+
+# Verificar consistência de nomes de arquivos
+npm run check-file-names
 
 # Atualizar timestamps automaticamente
 npm run update-timestamps
@@ -101,17 +113,29 @@ npm run pre-commit
 
 O projeto inclui validação automática que verifica:
 
-- ✅ **Estrutura JSON** - Schema válido
+- ✅ **Estrutura JSON** - Schema válido para arquivo principal e complementares
 - ✅ **Dados obrigatórios** - Campos necessários preenchidos
 - ✅ **Formatos** - URLs, emails, datas corretas
 - ✅ **Duplicatas** - Nomes únicos de bandas e membros
 - ✅ **Consistência** - Anos válidos, estados brasileiros
+- ✅ **Nomes de arquivos** - Arquivos complementares seguem padrão correto
+- ✅ **Links válidos** - URLs do YouTube, Spotify, etc.
 
 ### Sistema de Timestamps
 
 - 🕐 **Atualização automática** do campo `ultimaAtualizacao`
 - 📝 **Detecção inteligente** de mudanças nos dados
 - 📊 **Histórico completo** de todas as alterações
+- ⚡ **Validação incremental** - valida apenas arquivos alterados para melhor performance
+
+### Performance e Otimização
+
+O sistema de validação é otimizado para grandes volumes de dados:
+
+- **Validação incremental**: No pre-commit, valida apenas arquivos que foram alterados (staged)
+- **Validação completa**: Use `npm run validate-all` quando necessário
+- **Detecção automática**: Identifica automaticamente se está em um repositório Git
+- **Fallback inteligente**: Se não conseguir detectar alterações, valida todos os arquivos
 
 ## 🚀 Como Contribuir
 
@@ -176,13 +200,23 @@ O sistema gera automaticamente:
 
 ## 📝 Schema de Validação
 
-O arquivo `schema/banda-schema.json` contém todas as regras de validação:
+O arquivo `schema/banda-schema.json` contém todas as regras de validação para o arquivo principal, e `schema/banda-complemento-schema.json` contém as regras para os arquivos complementares:
+
+### Arquivo Principal (`bandas.json`)
 
 - Campos obrigatórios e opcionais
 - Tipos de dados permitidos
 - Validação de URLs e formatos
 - Limites de caracteres
 - Valores aceitos para enums
+
+### Arquivos Complementares (`bandas/*.json`)
+
+- Estrutura padronizada para informações detalhadas
+- Validação de discografia, vídeos, formações antigas
+- Prêmios, letras destacadas e curiosidades
+- Consistência entre nome da banda e nome do arquivo
+- URLs válidas para plataformas musicais
 
 ## 🤝 Diretrizes de Contribuição
 

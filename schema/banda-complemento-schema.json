@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "discografia",
+    "videos",
+    "formacoesAntigas",
+    "premios",
+    "letrasDestacadas",
+    "curiosidades",
+    "ultimaAtualizacao",
+    "fontes"
+  ],
+  "properties": {
+    "discografia": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["titulo", "ano", "tipo"],
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "ano": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2030
+          },
+          "tipo": {
+            "type": "string",
+            "enum": ["álbum", "EP", "single", "demo", "coletânea", "ao vivo"]
+          },
+          "descricao": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "faixas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "links": {
+            "type": "object",
+            "properties": {
+              "spotify": {
+                "type": "string",
+                "pattern": "^https://open\\.spotify\\.com/.+"
+              },
+              "youtube": {
+                "type": "string",
+                "pattern": "^https://(www\\.)?youtube\\.com/.+"
+              },
+              "bandcamp": {
+                "type": "string",
+                "format": "uri"
+              },
+              "soundcloud": {
+                "type": "string",
+                "pattern": "^https://soundcloud\\.com/.+"
+              }
+            }
+          }
+        }
+      }
+    },
+    "videos": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "pattern": "^https://(www\\.)?(youtube\\.com|youtu\\.be)/.+"
+          },
+          {
+            "type": "object",
+            "required": ["url", "titulo"],
+            "properties": {
+              "url": {
+                "type": "string",
+                "pattern": "^https://(www\\.)?(youtube\\.com|youtu\\.be)/.+"
+              },
+              "titulo": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+              },
+              "descricao": {
+                "type": "string",
+                "maxLength": 300
+              },
+              "ano": {
+                "type": "integer",
+                "minimum": 1990,
+                "maximum": 2030
+              }
+            }
+          }
+        ]
+      }
+    },
+    "formacoesAntigas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["periodo", "membros"],
+        "properties": {
+          "periodo": {
+            "type": "string",
+            "pattern": "^\\d{4}(-\\d{4})?$",
+            "description": "Formato: AAAA ou AAAA-AAAA"
+          },
+          "membros": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["nome", "funcao"],
+              "properties": {
+                "nome": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 50
+                },
+                "funcao": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 50
+                }
+              }
+            }
+          },
+          "observacoes": {
+            "type": "string",
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "premios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["titulo", "ano"],
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "ano": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2030
+          },
+          "categoria": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "entidade": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "descricao": {
+            "type": "string",
+            "maxLength": 300
+          }
+        }
+      }
+    },
+    "letrasDestacadas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["musica", "trecho"],
+        "properties": {
+          "musica": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "trecho": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 500
+          },
+          "album": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "ano": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2030
+          }
+        }
+      }
+    },
+    "curiosidades": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 300
+      }
+    },
+    "ultimaAtualizacao": {
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Timestamp ISO 8601 da última atualização ou null"
+    },
+    "fontes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "description": "URLs das fontes de informação"
+    }
+  }
+}

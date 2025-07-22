@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
+const ComplementaryValidator = require("./validate-complementary");
 
 class BandValidator {
   constructor() {
@@ -130,12 +131,24 @@ class BandValidator {
 // Script principal
 if (require.main === module) {
   const validator = new BandValidator();
+  const complementaryValidator = new ComplementaryValidator();
   const bandasFile = path.join(__dirname, "..", "bandas.json");
 
   console.log("🎵 API Indiefolio - Validador de Bandas");
   console.log("=".repeat(50));
 
-  const isValid = validator.validateFile(bandasFile);
+  // Valida arquivo principal
+  const isMainValid = validator.validateFile(bandasFile);
+
+  // Valida arquivos complementares
+  let isComplementaryValid = true;
+  if (isMainValid) {
+    console.log("\n🔍 Validando arquivos complementares...");
+    isComplementaryValid =
+      complementaryValidator.validateAllComplementaryFiles();
+  }
+
+  const isValid = isMainValid && isComplementaryValid;
 
   if (isValid) {
     const stats = validator.getStats(bandasFile);

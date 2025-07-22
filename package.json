@@ -4,7 +4,11 @@
   "description": "API pública opensource para bandas independentes brasileiras",
   "main": "index.js",
   "scripts": {
-    "validate": "node scripts/validate-bands.js",
+    "validate": "node scripts/validate-incremental.js",
+    "validate-all": "node scripts/validate-incremental.js --complete",
+    "validate-legacy": "node scripts/validate-bands.js",
+    "validate-complementary": "node scripts/validate-complementary.js",
+    "check-file-names": "node scripts/validate-complementary.js --check-names",
     "update-timestamps": "node scripts/update-timestamps.js",
     "generate-changelog": "node scripts/generate-changelog.js",
     "prepare": "husky install",
