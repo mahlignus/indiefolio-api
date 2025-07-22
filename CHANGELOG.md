@@ -21,3 +21,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Dados das bandas validados contra schema
 
 ---
+## 21/07/2025 - 21:48:35
+
+### 🔄 Modificadas
+- Banda atualizada: "Lokos D'Bira" - campos alterados: generos
+
+---
+

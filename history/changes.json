@@ -1,0 +1,11 @@
+[
+  {
+    "tipo": "ALTERADA",
+    "banda": "Lokos D'Bira",
+    "timestamp": "2025-07-22T00:48:35.155Z",
+    "detalhes": "Banda atualizada: \"Lokos D'Bira\" - campos alterados: generos",
+    "campos": [
+      "generos"
+    ]
+  }
+]
