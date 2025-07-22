@@ -12,7 +12,7 @@
     "update-timestamps": "node scripts/update-timestamps.js",
     "generate-changelog": "node scripts/generate-changelog.js",
     "prepare": "husky install",
-    "pre-commit": "npm run validate && npm run update-timestamps && npm run generate-changelog"
+    "pre-commit": "npm run validate && npm run update-timestamps && npm run generate-changelog && git add bandas.json CHANGELOG.md history/"
   },
   "keywords": [
     "bandas",

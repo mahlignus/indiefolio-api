@@ -39,11 +39,10 @@
     "generos": [
       "rock",
       "blues",
-      "punk",
-      "stoner"
+      "punk"
     ],
     "complemento": "/bandas/lokosdbira.json",
-    "ultimaAtualizacao": "2025-07-22T00:52:43.268Z",
+    "ultimaAtualizacao": "2025-07-22T00:54:10.481Z",
     "fontes": [
       "https://lokosdbira.com.br"
     ]
