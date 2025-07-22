@@ -16,14 +16,16 @@ class IncrementalValidator {
     try {
       // Verifica se estamos em um repositório git
       if (!fs.existsSync(path.join(__dirname, "..", ".git"))) {
-        console.log("⚠️ Não é um repositório git - validando todos os arquivos");
+        console.log(
+          "⚠️ Não é um repositório git - validando todos os arquivos"
+        );
         return this.getAllRelevantFiles();
       }
 
       // Pega arquivos staged (preparados para commit)
-      const stagedFiles = execSync("git diff --cached --name-only", { 
+      const stagedFiles = execSync("git diff --cached --name-only", {
         encoding: "utf8",
-        cwd: path.join(__dirname, "..")
+        cwd: path.join(__dirname, ".."),
       }).trim();
 
       if (!stagedFiles) {
@@ -31,28 +33,33 @@ class IncrementalValidator {
         return [];
       }
 
-      const changedFiles = stagedFiles.split("\n").filter(file => {
+      const changedFiles = stagedFiles.split("\n").filter((file) => {
         // Filtra apenas arquivos JSON relevantes
-        return file === "bandas.json" || 
-               (file.startsWith("bandas/") && file.endsWith(".json"));
+        return (
+          file === "bandas.json" ||
+          (file.startsWith("bandas/") && file.endsWith(".json"))
+        );
       });
 
       return changedFiles;
-
     } catch (error) {
-      console.log("⚠️ Erro ao detectar arquivos alterados - validando todos:", error.message);
+      console.log(
+        "⚠️ Erro ao detectar arquivos alterados - validando todos:",
+        error.message
+      );
       return this.getAllRelevantFiles();
     }
   }
 
   getAllRelevantFiles() {
     const files = ["bandas.json"];
-    
+
     if (fs.existsSync(this.bandasDir)) {
-      const complementaryFiles = fs.readdirSync(this.bandasDir)
-        .filter(file => file.endsWith(".json"))
-        .map(file => `bandas/${file}`);
-      
+      const complementaryFiles = fs
+        .readdirSync(this.bandasDir)
+        .filter((file) => file.endsWith(".json"))
+        .map((file) => `bandas/${file}`);
+
       files.push(...complementaryFiles);
     }
 
@@ -62,17 +69,19 @@ class IncrementalValidator {
   validateChangedFiles() {
     try {
       const changedFiles = this.getChangedFiles();
-      
+
       console.log("🎵 API Indiefolio - Validação Incremental");
-      console.log("=" .repeat(50));
+      console.log("=".repeat(50));
 
       if (changedFiles.length === 0) {
         console.log("✅ Nenhum arquivo relevante para validar");
         return true;
       }
 
-      console.log(`🔍 Validando ${changedFiles.length} arquivo(s) alterado(s):`);
-      changedFiles.forEach(file => console.log(`  📄 ${file}`));
+      console.log(
+        `🔍 Validando ${changedFiles.length} arquivo(s) alterado(s):`
+      );
+      changedFiles.forEach((file) => console.log(`  📄 ${file}`));
       console.log("");
 
       let hasErrors = false;
@@ -88,26 +97,26 @@ class IncrementalValidator {
       }
 
       // Valida arquivos complementares alterados
-      const complementaryFiles = changedFiles.filter(file => 
-        file.startsWith("bandas/") && file.endsWith(".json")
+      const complementaryFiles = changedFiles.filter(
+        (file) => file.startsWith("bandas/") && file.endsWith(".json")
       );
 
       if (complementaryFiles.length > 0) {
         console.log("\n🔍 Validando arquivos complementares alterados...");
-        
+
         // Carrega dados das bandas para validação de consistência
         let bandasData = [];
         try {
-          bandasData = JSON.parse(fs.readFileSync(this.bandasFile, 'utf8'));
+          bandasData = JSON.parse(fs.readFileSync(this.bandasFile, "utf8"));
         } catch (error) {
           console.error("❌ Erro ao carregar bandas.json:", error.message);
           hasErrors = true;
         }
 
         const bandasMap = new Map();
-        bandasData.forEach(banda => {
+        bandasData.forEach((banda) => {
           if (banda.complemento) {
-            const fileName = banda.complemento.replace('/bandas/', '');
+            const fileName = banda.complemento.replace("/bandas/", "");
             bandasMap.set(fileName, banda);
           }
         });
@@ -115,13 +124,14 @@ class IncrementalValidator {
         for (const file of complementaryFiles) {
           const fileName = file.replace("bandas/", "");
           const filePath = path.join(__dirname, "..", file);
-          
+
           if (fs.existsSync(filePath)) {
-            const isValid = this.complementaryValidator.validateComplementaryFile(
-              filePath, 
-              fileName, 
-              bandasMap
-            );
+            const isValid =
+              this.complementaryValidator.validateComplementaryFile(
+                filePath,
+                fileName,
+                bandasMap
+              );
             if (!isValid) {
               hasErrors = true;
             }
@@ -140,7 +150,7 @@ class IncrementalValidator {
 
       if (!hasErrors) {
         console.log("\n✅ Todos os arquivos alterados são válidos!");
-        
+
         // Mostra estatísticas apenas se arquivo principal foi alterado
         if (mainFileChanged) {
           const stats = this.bandValidator.getStats(this.bandasFile);
@@ -152,7 +162,6 @@ class IncrementalValidator {
       }
 
       return !hasErrors;
-
     } catch (error) {
       console.error("❌ Erro na validação incremental:", error.message);
       return false;
@@ -161,18 +170,23 @@ class IncrementalValidator {
 
   validateCrossReferences() {
     try {
-      const bandasData = JSON.parse(fs.readFileSync(this.bandasFile, 'utf8'));
-      
-      bandasData.forEach(banda => {
+      const bandasData = JSON.parse(fs.readFileSync(this.bandasFile, "utf8"));
+
+      bandasData.forEach((banda) => {
         if (banda.complemento) {
-          const complementPath = path.join(__dirname, "..", banda.complemento.substring(1));
-          
+          const complementPath = path.join(
+            __dirname,
+            "..",
+            banda.complemento.substring(1)
+          );
+
           if (!fs.existsSync(complementPath)) {
-            console.log(`⚠️ Arquivo complementar não encontrado: ${banda.complemento} (banda: ${banda.nome})`);
+            console.log(
+              `⚠️ Arquivo complementar não encontrado: ${banda.complemento} (banda: ${banda.nome})`
+            );
           }
         }
       });
-
     } catch (error) {
       console.error("❌ Erro na validação cruzada:", error.message);
     }
@@ -181,30 +195,31 @@ class IncrementalValidator {
   // Método para forçar validação completa
   validateAll() {
     console.log("🎵 API Indiefolio - Validação Completa (Forçada)");
-    console.log("=" .repeat(50));
-    
+    console.log("=".repeat(50));
+
     // Valida arquivo principal
     const isMainValid = this.bandValidator.validateFile(this.bandasFile);
-    
+
     // Valida todos os arquivos complementares
     let isComplementaryValid = true;
     if (isMainValid) {
-      console.log('\n🔍 Validando todos os arquivos complementares...');
-      isComplementaryValid = this.complementaryValidator.validateAllComplementaryFiles();
+      console.log("\n🔍 Validando todos os arquivos complementares...");
+      isComplementaryValid =
+        this.complementaryValidator.validateAllComplementaryFiles();
     }
-    
+
     const isValid = isMainValid && isComplementaryValid;
-    
+
     if (isValid) {
       const stats = this.bandValidator.getStats(this.bandasFile);
-      console.log('\n📊 Estatísticas:');
+      console.log("\n📊 Estatísticas:");
       console.log(`  • Total de bandas: ${stats.totalBandas}`);
       console.log(`  • Bandas ativas: ${stats.bandasAtivas}`);
       console.log(`  • Bandas inativas: ${stats.bandasInativas}`);
-      console.log(`  • Estados representados: ${stats.estados.join(', ')}`);
+      console.log(`  • Estados representados: ${stats.estados.join(", ")}`);
       console.log(`  • Gêneros únicos: ${stats.generos.length}`);
     }
-    
+
     return isValid;
   }
 }
@@ -212,17 +227,18 @@ class IncrementalValidator {
 // Script principal
 if (require.main === module) {
   const validator = new IncrementalValidator();
-  
+
   // Verifica se deve fazer validação completa
-  const forceComplete = process.argv.includes('--complete') || process.argv.includes('--all');
-  
+  const forceComplete =
+    process.argv.includes("--complete") || process.argv.includes("--all");
+
   let isValid;
   if (forceComplete) {
     isValid = validator.validateAll();
   } else {
     isValid = validator.validateChangedFiles();
   }
-  
+
   process.exit(isValid ? 0 : 1);
 }
 
