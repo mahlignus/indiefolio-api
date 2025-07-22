@@ -36,10 +36,17 @@
       "estado": "RS",
       "cidade": "Esteio"
     },
-    "generos": ["rock", "blues", "punk"],
+    "generos": [
+      "rock",
+      "blues",
+      "punk",
+      "stoner"
+    ],
     "complemento": "/bandas/lokosdbira.json",
-    "ultimaAtualizacao": "2025-07-21T23:52:32.503Z",
-    "fontes": ["https://lokosdbira.com.br"]
+    "ultimaAtualizacao": "2025-07-22T00:52:43.268Z",
+    "fontes": [
+      "https://lokosdbira.com.br"
+    ]
   },
   {
     "nome": "Flyleaves",
@@ -76,10 +83,17 @@
       "estado": "RS",
       "cidade": "Canoas"
     },
-    "generos": ["rock", "grunge", "alternativo", "garage rock"],
+    "generos": [
+      "rock",
+      "grunge",
+      "alternativo",
+      "garage rock"
+    ],
     "complemento": "/bandas/flyleaves.json",
     "ultimaAtualizacao": "2025-07-18T22:30:00Z",
-    "fontes": ["https://flyleaves.com.br"]
+    "fontes": [
+      "https://flyleaves.com.br"
+    ]
   },
   {
     "nome": "Saudades Robson",
@@ -119,9 +133,16 @@
       "estado": "RS",
       "cidade": "Porto Alegre"
     },
-    "generos": ["rock", "punk", "hardcore", "emo"],
+    "generos": [
+      "rock",
+      "punk",
+      "hardcore",
+      "emo"
+    ],
     "complemento": "/bandas/saudadesrobson.json",
     "ultimaAtualizacao": "2025-07-21T16:35:10Z",
-    "fontes": ["Spotify, Instagram e Youtube"]
+    "fontes": [
+      "Spotify, Instagram e Youtube"
+    ]
   }
 ]
