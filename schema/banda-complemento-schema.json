@@ -145,27 +145,26 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["titulo", "ano"],
+        "required": ["premio", "ano"],
         "properties": {
-          "titulo": {
+          "premio": {
             "type": "string",
             "minLength": 1,
             "maxLength": 100
           },
           "ano": {
             "type": "integer",
-            "minimum": 1950,
-            "maximum": 2030
+            "minimum": 1950
+          },
+          "evento": {
+            "type": "string",
+            "maxLength": 100
           },
           "categoria": {
             "type": "string",
             "maxLength": 50
           },
-          "entidade": {
-            "type": "string",
-            "maxLength": 100
-          },
-          "descricao": {
+          "posicao": {
             "type": "string",
             "maxLength": 300
           }

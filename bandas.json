@@ -1,6 +1,6 @@
 [
   {
-    "nome": "Lokos D'Bira",
+    "nome": "Lokos D' Bira",
     "descricao": "Banda de rock de Esteio fundada em 2001. Com influências do rock clássico, blues e punk, se destaca por performances enérgicas e letras em português que abordam amor, liberdade, bebedeiras, crítica social e principalmente a noite. Conta com 5 CDs gravados e fez turnê internacional no Uruguai em 2019.",
     "anoFundacao": 2001,
     "anoTermino": null,
@@ -28,8 +28,8 @@
       "soundcloud": "https://soundcloud.com/lokosdbira"
     },
     "contato": {
-      "email": "contato@lokosdbira.com.br",
-      "fone": ""
+      "email": "lokosdbira@gmail.com",
+      "fone": "+55 51 99657-9258"
     },
     "local": {
       "pais": "Brasil",
@@ -43,7 +43,7 @@
     ],
     "complemento": "/bandas/lokosdbira.json",
     "cadastradoEm": "2025-07-18T00:00:00Z",
-    "ultimaAtualizacao": "2025-07-24T21:27:17.186Z",
+    "ultimaAtualizacao": "2025-07-25T15:16:04.921Z",
     "fontes": [
       "https://lokosdbira.com.br"
     ]

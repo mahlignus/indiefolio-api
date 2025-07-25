@@ -5,7 +5,19 @@
     "https://www.youtube.com/watch?v=fOC_wjnUKAY"
   ],
   "formacoesAntigas": [],
-  "premios": [],
+  "premios": [
+    {
+      "premio": "Festival de Bandas",
+      "ano": 2002,
+      "evento": "Opinião",
+      "posicao": "1º lugar"
+    },
+    {
+      "premio": "Festival Esteio",
+      "ano": 2004,
+      "posicao": "1º lugar"
+    }
+  ],
   "letrasDestacadas": [],
   "curiosidades": [
     "O lendário baixo Sonelli foi adquirido numa troca por 3 sacos de cimento, em meados de 2002.",
