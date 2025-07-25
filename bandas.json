@@ -146,5 +146,53 @@
     "fontes": [
       "Spotify, Instagram e Youtube"
     ]
+  },
+  {
+    "nome": "Overdose de Fumaça",
+    "descricao": "Uma banda de rock N roll, com inspiração nas lendas do rock mundial, com muito dinamismo e sangue, riffs de baixo e guitarra marcantes, percussão envolvente, e um vocal de dar inveja. Somos a overdose de fumaça, venha curtir o bom e velho rock N roll.",
+    "anoFundacao": 2014,
+    "anoTermino": null,
+    "avatar": "https://i.ibb.co/WN8ggjP9/overdosedefumaca.jpg",
+    "formacaoAtual": [
+      {
+        "nome": "Sidinei Moreira",
+        "funcao": "Vocal"
+      },
+      {
+        "nome": "Luciano Iaczinski",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Vitor Baumhardt",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Douglas Bedra",
+        "funcao": "Bateria"
+      }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/overdosedefumaca",
+      "spotify": "https://open.spotify.com/artist/3qy2YRtahzaRDPYVNMbuW2?si=Tp8VxnI4S2ijXQgPGGqykg"
+    },
+    "contato": {
+      "email": "overdose.de.fumaca@gmail.com",
+      "fone": "+55 51 995032184"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Sapucaia do Sul"
+    },
+    "generos": [
+      "rock",
+      "pós punk",
+      "blues rock",
+      "alternativo",
+      "progressivo"
+    ],
+    "complemento": "2025-07-25T11:34:34-03:00",
+    "ultimaAtualizacao": "2025-07-25T15:31:44.030Z",
+    "fontes": []
   }
 ]
