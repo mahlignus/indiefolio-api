@@ -75,8 +75,7 @@
       "site": "https://flyleaves.com.br"
     },
     "contato": {
-      "email": "contato@flyleaves.com.br",
-      "fone": ""
+      "fone": "+55 51 985307111"
     },
     "local": {
       "pais": "Brasil",
@@ -91,7 +90,7 @@
     ],
     "complemento": "/bandas/flyleaves.json",
     "cadastradoEm": "2025-07-18T00:00:00Z",
-    "ultimaAtualizacao": "2025-07-24T21:26:18.306Z",
+    "ultimaAtualizacao": "2025-07-25T15:32:43.414Z",
     "fontes": [
       "https://flyleaves.com.br"
     ]
