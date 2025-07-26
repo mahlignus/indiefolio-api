@@ -1,5 +1,7 @@
 # API Indiefolio
 
+🔗 [Acessar Indiefolio](https://indiefolio.com.br)
+
 > 🎵 API pública opensource para bandas independentes brasileiras
 
 Uma base de dados colaborativa em JSON contendo informações sobre bandas independentes do Brasil. Projeto opensource que visa catalogar e divulgar a rica cena musical independente nacional.
@@ -88,9 +90,6 @@ npm run validate
 npm run validate-all
 
 # Validar usando método legacy (sempre todos os arquivos)
-npm run validate-legacy
-
-# Validar apenas arquivos complementares
 npm run validate-complementary
 
 # Verificar consistência de nomes de arquivos
@@ -99,10 +98,6 @@ npm run check-file-names
 # Atualizar timestamps automaticamente
 npm run update-timestamps
 
-# Gerar changelog das mudanças
-npm run generate-changelog
-
-# Ver mudanças recentes
 node scripts/generate-changelog.js --recent 10
 
 # Executar validação completa (pre-commit)
@@ -217,6 +212,32 @@ O arquivo `schema/banda-schema.json` contém todas as regras de validação para
 - Prêmios, letras destacadas e curiosidades
 - Consistência entre nome da banda e nome do arquivo
 - URLs válidas para plataformas musicais
+
+## 🏷️ Como Funciona o Versionamento dos Arquivos JSON
+
+O versionamento dos arquivos `bandas.json` e `complemento.json` segue o padrão semântico (SemVer), no formato `X.Y.Z`:
+
+- **Major (X):** Mudanças que quebram a estrutura dos arquivos, como remoção ou alteração de campos obrigatórios. Exemplo: migrar de um array para um objeto, renomear campos principais.
+- **Minor (Y):** Inclusão de novas bandas ou entradas, sem alterar a estrutura existente. Exemplo: adicionar uma nova banda ou campo opcional.
+- **Patch (Z):** Correções ou atualizações pontuais em bandas já existentes. Exemplo: corrigir nome, atualizar redes sociais, ajustar avatar.
+
+**Exemplo prático:**
+
+- `1.2.0`: Adicionada uma nova banda
+- `1.2.1`: Corrigido o nome de uma banda
+- `2.0.0`: Estrutura dos dados alterada (ex: campo obrigatório removido)
+
+**Fluxo de atualização:**
+
+1. Sempre que uma alteração é feita, a versão do arquivo é incrementada conforme o tipo de mudança.
+2. O front-end consome os arquivos via CDN e utiliza parâmetros de URL (`?v=1.2.0`) para garantir que está usando a versão correta e evitar problemas de cache.
+3. O changelog (`CHANGELOG.md`) registra todas as alterações e versões publicadas.
+4. O arquivo de complemento `bandas/nomebanda.json` deve respeitar as mesmas regras.
+
+**Importante:**
+
+- Nunca referencie diretamente o branch `main` no front-end. Use sempre URLs versionadas.
+- Para projetos colaborativos, revise e documente todas as mudanças antes de publicar uma nova versão.
 
 ## 🤝 Diretrizes de Contribuição
 

@@ -190,8 +190,50 @@
       "alternativo",
       "progressivo"
     ],
-    "complemento": "2025-07-25T11:34:34-03:00",
-    "ultimaAtualizacao": "2025-07-25T15:31:44.030Z",
+    "complemento": "",
+    "cadastradoEm": "2025-07-25T12:34:10Z",
+    "ultimaAtualizacao": "2025-07-26T02:25:51.766Z",
+    "fontes": []
+  },
+  {
+    "nome": "PunkRockets",
+    "descricao": "Banda porto-alegrense de punk rock autoral criada em 2019. Integrada por Déby (bateria), Clara (voz), Jenny (guitarra e vocais) e Rok (baixo). A PunkRockets lançou 2 singles: '3 Acordes' (2020) e 'Miragem' (2021), e participou do EP coletânea \"Xis Underground\" (2021) com a faixa 'Pandemia', a obra está disponível nas plataformas. As composições trazem letras marcantes e reforçam a identidade do punk rock. Com forte influência de Ramones, vem se destacando e conquistando espaço na cena musical independente.",
+    "anoFundacao": 2019,
+    "anoTermino": null,
+    "avatar": "https://drive.google.com/uc?export=view&id=1iIVbiJpBfwy7zASzqPOYfyFrUiBgKcjJ",
+    "formacaoAtual": [
+      {
+        "nome": "Déby",
+        "funcao": "Bateria"
+      },
+      {
+        "nome": "Jenny",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Rok",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Clara",
+        "funcao": "Voz"
+      }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/punk.rockets"
+    },
+    "contato": {},
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "Punk rock"
+    ],
+    "complemento": "/bandas/punkrockets.json",
+    "cadastradoEm": "2025-07-25T12:34:10Z",
+    "ultimaAtualizacao": "2025-07-26T02:25:51.766Z",
     "fontes": []
   }
 ]
