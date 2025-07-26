@@ -235,5 +235,53 @@
     "cadastradoEm": "2025-07-25T12:34:10Z",
     "ultimaAtualizacao": "2025-07-26T02:25:51.766Z",
     "fontes": []
+  },
+  {
+    "nome": "Cabala",
+    "descricao": "Banda brasileira, autoral e independente, mistura rock com variados gêneros musicais, formada em 3 de Julho de 1998 em Porto Alegre/RS, é integrada por Miro Junior (voz), Alemão Ribeiro (baixo), Ellias Pedra (guitarra/vocal) e Helio Cordeiro (bateria). Ao longo dos 27 anos de carreira, a Cabala lançou o álbum \"Alegria do Ensaio\" (2006), 4 EPs, 11 singles, 6 videoclipes e participou de 3 coletâneas: \"Safra 2001 Ipanema FM\", \"Conexão RS\" e \"Good Music Rock Festival 2ª edição\". O grupo trabalha na produção do novo álbum.",
+    "anoFundacao": 1998,
+    "anoTermino": null,
+    "avatar": "https://drive.google.com/uc?export=view&id=1a0_9xxJE7tV0SPaWbtPWmjLf0HyUgxQS",
+    "formacaoAtual": [
+      {
+        "nome": "Miro Júnior",
+        "funcao": "Voz"
+      },
+      {
+        "nome": "Ellias Pedra",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Alemão Ribeiro",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Helio Cordeiro",
+        "funcao": "Bateria"
+      }
+    ],
+    "social": {
+      "instagram": "https://instagram.com/bandacabala",
+      "site": "https://bandacabala.com.br"
+    },
+    "contato": {
+      "email": "rochaduraproducoes@yahoo.com.br",
+      "fone": "+55 51 995512642"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "rock",
+      "punk",
+      "samba",
+      "funk"
+    ],
+    "complemento": "/bandas/cabala.json",
+    "cadastradoEm": "2025-07-26T03:30:00Z",
+    "ultimaAtualizacao": "2025-07-26T06:40:17.598Z",
+    "fontes": []
   }
 ]
