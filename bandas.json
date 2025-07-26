@@ -323,6 +323,7 @@
       "cidade": "São Leopoldo"
     },
     "generos": ["Punk Rock"],
+    "complemento": "/bandas/petardo69.json",
     "cadastradoEm": "2025-07-26T12:56:24-03:00",
     "ultimaAtualizacao": "2025-07-26T09:29:24-03:00",
     "fontes": []
