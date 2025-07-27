@@ -283,5 +283,53 @@
     "cadastradoEm": "2025-07-26T03:30:00Z",
     "ultimaAtualizacao": "2025-07-26T06:40:17.598Z",
     "fontes": []
+  },
+  {
+    "nome": "Jéssica Jennifer",
+    "descricao": "A banda formada em 2024 em Porto Alegre tem Jéssica Jennifer (voz), Kauã Kopper (guitarra), Alemão Ribeiro (baixo) e Helio Cordeiro (bateria). O grupo idealizado pela cantora e compositora lançou 2 singles: \"Interestelar\" (2024) e \"Efeito Borboleta\" (2025), e está em estúdio trabalhando na gravação das faixas inéditas, \"Hora de Voar\" e \"Divertidamete Brilhante\", que serão lançadas no segundo semestre de 2025.",
+    "anoFundacao": 2024,
+    "anoTermino": null,
+    "avatar": "https://drive.google.com/uc?export=view&id=1XP_4huiQSzZD_b67DGI0ad9gClfBuu7J",
+    "formacaoAtual": [
+      {
+        "nome": "Jéssica Jennifer",
+        "funcao": "Voz"
+      },
+      {
+        "nome": "Kauã Kopper",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Alemão Ribeiro",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Helio Cordeiro",
+        "funcao": "Bateria"
+      }
+    ],
+    "social": {
+      "instagram": "https://instagram.com/jessicajenniferoficial",
+      "youtube": "https://youtube.com/playlist?list=OLAK5uy_nDdb9HcdIij-S3DC6zvMg4AASreqrR7bs&si=IAsndreCVYwUUR7nheliocordeiro1975@gmail.comEntendidoEntendido",
+      "spotify": "https://open.spotify.com/intl-pt/artist/6SPcmmlPB6mJGKHZ6VrM2T?si=CARzA2PITBeJxRx8orinRQ"
+    },
+    "contato": {
+      "email": "rochaduraproducoes@yahoo.com.br",
+      "fone": "+55 51 995512642"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "rock",
+      "pop",
+      "balada"
+    ],
+    "complemento": "/bandas/jessicajennifer.json",
+    "cadastradoEm": "2025-07-27T01:15:18.000Z",
+    "ultimaAtualizacao": "2025-07-27T14:53:34.701Z",
+    "fontes": []
   }
 ]
