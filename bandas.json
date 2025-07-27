@@ -285,6 +285,52 @@
     "fontes": []
   },
   {
+    "nome": "Petardo 69",
+    "descricao": "Formada em São Leopoldo, no ano de 2002, a PETARDO 69 surgiu na cena independente gaúcha misturando a energia do punk rock com letras autorais que fazem pensar e sentir. Com influências que vão do garage rock ao punk rock old school, a banda aposta em sua identidade como principal instrumento.\n\nA formação atual conta com:\nRafael Meirelles (vocal)\nPaulo Pereira (guitarra)\nMaico Roberto (baixo)\nJean Sant´Anna (bateria)\n\nCom presença marcante no palco, sonoridade intensa e letras que exploram inquietações pessoais e liberdade, o quarteto entrega um som direto e autêntico.\n\nA PETARDO 69 ganhou destaque na cena gaúcha, se apresentando em espaços culturais, festivais independentes e casas de show como o Opinião. Também marcou presença no Programa Radar (TVE-RS) e abrindo um show da banda Acústicos e Valvulados, reforçando sua relevância na cena.\n\nApós um longo período de hiato, a PETARDO 69 voltou à ativa em 2023 com novas composições e a mesma urgência criativa de sempre — dando sequência a uma trajetória coerente, com ideias claras e som consistente.",
+    "anoFundacao": 2002,
+    "anoTermino": null,
+    "avatar": "https://drive.google.com/uc?export=view&id=1ZZpBlLn9EzmItHvcBZdMWd4GwJsmWytx",
+    "formacaoAtual": [
+      {
+        "nome": "Rafael Meirelles",
+        "funcao": "vocal"
+      },
+      {
+        "nome": "Paulo Pereira",
+        "funcao": "guitarra"
+      },
+      {
+        "nome": "Maico Roberto",
+        "funcao": "baixo"
+      },
+      {
+        "nome": "Jean Sant´Anna",
+        "funcao": "bateria"
+      }
+    ],
+    "social": {
+      "spotify": "https://open.spotify.com/artist/4mjPzKnWB4goLOee65oxnr?si=kVHhqlkZSTmNCXQtCH0UCQ",
+      "instagram": "https://www.instagram.com/banda_petardo69_?igsh=MTVkOTV1amg4aHppdA==",
+      "youtube": "https://youtube.com/@petardo69?si=qkl4w-llt9gau-bU"
+    },
+    "contato": {
+      "email": "rafaelmeirelles83.rm@gmail.com",
+      "fone": "51 99131-0015"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "São Leopoldo"
+    },
+    "generos": [
+      "Punk Rock"
+    ],
+    "complemento": "/bandas/petardo69.json",
+    "cadastradoEm": "2025-07-26T12:56:24-03:00",
+    "ultimaAtualizacao": "2025-07-27T14:59:16.703Z",
+    "fontes": []
+  },
+  {
     "nome": "Jéssica Jennifer",
     "descricao": "A banda formada em 2024 em Porto Alegre tem Jéssica Jennifer (voz), Kauã Kopper (guitarra), Alemão Ribeiro (baixo) e Helio Cordeiro (bateria). O grupo idealizado pela cantora e compositora lançou 2 singles: \"Interestelar\" (2024) e \"Efeito Borboleta\" (2025), e está em estúdio trabalhando na gravação das faixas inéditas, \"Hora de Voar\" e \"Divertidamete Brilhante\", que serão lançadas no segundo semestre de 2025.",
     "anoFundacao": 2024,

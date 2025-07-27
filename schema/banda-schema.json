@@ -22,7 +22,7 @@
       "descricao": {
         "type": "string",
         "minLength": 10,
-        "maxLength": 1000,
+        "maxLength": 1100,
         "description": "Descrição da banda, história, estilo"
       },
       "anoFundacao": {
