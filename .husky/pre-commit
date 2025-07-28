@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run pre-commit
+# Verifica se bandas.json ou bandas/*.json foram modificados
+if git diff --cached --name-only | grep -Eq '^bandas.json$|^bandas/.*\\.json$'; then
+  npm run pre-commit
+else
+  echo "Nenhuma banda modificada, pulando validação."
+fi
