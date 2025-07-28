@@ -377,5 +377,53 @@
     "cadastradoEm": "2025-07-27T01:15:18.000Z",
     "ultimaAtualizacao": "2025-07-27T14:53:34.701Z",
     "fontes": []
+  },
+  {
+    "nome": "Guimas",
+    "descricao": "Paulo Guimarães, também conhecido como Guimas, é um experiente baixista com quase 20 anos de trajetória musical. Ao longo de sua carreira, ele participou de diversas bandas, como Delirium Tremens, Niil', Red Crow Mystical Dog, Stela e Bleach Nirvana Cover, percorrendo todo o estado do Rio Grande do Sul com esta última. Além disso, contribuiu nas gravações do álbum \"Retalhos\" de Lê Batilli, e se apresentou em importantes festivais, incluindo o Festival do Rock Gaúcho - edição Independência em 2017 e o festival PoaRock em 2018, onde contou com a participação especial de Frank Jorge.\nNo inicio do ano de 2023 Guimas decidiu iniciar uma carreira solo com o seu projeto intitulado \"Guimas\" O projeto busca explorar uma sonoridade que combina influências do Grunge, Indie,Emo e rock latino. Em julho de 2023 lançou o Single “Bipolar” gravado por Felipe Liscano no estudio “Jam In The Room” na zona sul de Porto Alegre\nEm 2025 Guimas lançou um novo single chamado “10 de Julho” produzido por Stefano “PanNo” e tem trabalhado junto com Regis Moura (bateria), Leonardo Costa(baixo) e Guilherme Valls(guitarra) em outras canções para concluir a produção de um EP que contará com seis músicas tendo a previsão de lançamento para Dezembro de 2025",
+    "anoFundacao": 2023,
+    "anoTermino": null,
+    "avatar": "https://i.ibb.co/Fk5hX6n1/guimas.jpg",
+    "formacaoAtual": [
+      {
+        "nome": "Paulo Guimas",
+        "funcao": "Vocal e Guitarra"
+      },
+      {
+        "nome": "Leonardo Costa",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Guilherme Valls",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Regis Moura",
+        "funcao": "Bateria"
+      }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/guimasoficial",
+      "spotify": "https://open.spotify.com/artist/49XVdc4P6zYUrALUPGXrhu"
+    },
+    "contato": {
+      "email": "eusouoguimas@gmail.com",
+      "fone": "+55 51 986581078"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "rock",
+      "emo",
+      "grunge",
+      "indie"
+    ],
+    "complemento": "/bandas/guimas.json",
+    "cadastradoEm": "2025-07-28T21:32:38.095Z",
+    "ultimaAtualizacao": "2025-07-28T22:03:12.107Z",
+    "fontes": []
   }
 ]
