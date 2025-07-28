@@ -1,6 +1,6 @@
 {
   "name": "indiefolio-api",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "API pública opensource para bandas independentes brasileiras",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "update-timestamps": "node scripts/update-timestamps.js",
     "generate-changelog": "node scripts/generate-changelog.js",
     "prepare": "husky install",
-    "pre-commit": "npm run validate && npm run update-timestamps && npm run generate-changelog && git add bandas.json CHANGELOG.md history/"
+    "pre-commit": "npm run validate && npm run update-timestamps && npm run generate-changelog && git add bandas.json CHANGELOG.md history/",
+    "generate-tag": "node scripts/generate-tag.js"
   },
   "keywords": [
     "bandas",
