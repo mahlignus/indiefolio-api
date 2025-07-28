@@ -50,7 +50,7 @@
   },
   {
     "nome": "Flyleaves",
-    "descricao": "Banda de rock de Canoas formada em 1998, com influências do grunge de Seattle, rock de garagem dos anos 60, Beatles, Black Sabbath e Jovem Guarda. Com letras em inglês e sonoridade que varia entre melódica e caótica, já realizaram centenas de shows na região metropolitana de Porto Alegre e lançaram o EP 'Beer and Grass' (2021) e o álbum 'Disorder Gallery' (2023). Comemoram 25 anos de estrada em 2023.",
+    "descricao": "Banda de rock de Canoas formada em 1998, com influências do grunge de Seattle, rock de garagem dos anos 60, Beatles, Black Sabbath e Jovem Guarda. Com letras em inglês e sonoridade que varia entre melódica e caótica, já realizaram centenas de shows na região metropolitana de Porto Alegre e lançaram o EP 'Beer and Grass' (2021) e o álbum 'Disorder Gallery' (2023).",
     "anoFundacao": 1998,
     "anoTermino": null,
     "avatar": "https://i.ibb.co/Mk5mWzLW/flyleaves.jpg",
@@ -90,7 +90,7 @@
     ],
     "complemento": "/bandas/flyleaves.json",
     "cadastradoEm": "2025-07-18T00:00:00Z",
-    "ultimaAtualizacao": "2025-07-25T15:32:43.414Z",
+    "ultimaAtualizacao": "2025-07-28T15:29:07.868Z",
     "fontes": [
       "https://flyleaves.com.br"
     ]
