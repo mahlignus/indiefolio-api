@@ -76,12 +76,10 @@ function main() {
   const newVersion = updateVersion(type);
   fs.copyFileSync(bandasFile, previousFile);
   // Cria tag git
-  execSync(`echo git add package.json`);
-  execSync(
-    `echo git commit -m "chore: bump version to v${newVersion} [skip ci]"`
-  );
-  execSync(`echo git tag v${newVersion}`);
-  execSync(`echo git push origin main --tags`);
+  execSync(`git add package.json`);
+  execSync(`git commit -m "chore: bump version to v${newVersion} [skip ci]"`);
+  execSync(`git tag v${newVersion}`);
+  execSync(`git push origin main --tags`);
   console.log(`Versão ${newVersion} gerada e tag criada (${type}).`);
 }
 
