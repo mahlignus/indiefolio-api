@@ -428,7 +428,7 @@
   },
   {
     "nome": "Funesta",
-    "descricao": "Somos uma banda de Doom Metal, que mistura outras subgêneros do metal, como o Death e Black metal. O guitarrista e o baixista tiveram a ideia fazer uma banda de Black Doom Metal e durante um show que aconteceu no Caos Bar em Porto Alegre, conheceram os outros integrantes.",
+    "descricao": "Somos uma banda de Doom Metal, que mistura outros subgêneros do metal, como o Death e Black Metal. O guitarrista e o baixista tiveram a ideia de fazer uma banda de Black Doom Metal e durante um show que aconteceu no Caos Bar em Porto Alegre conheceram os outros integrantes.",
     "anoFundacao": 2024,
     "anoTermino": null,
     "avatar": "https://drive.google.com/uc?export=view&id=1PG0N0WDLmWOkuWIxYfkvTYiPSEHaB6RI",
@@ -469,7 +469,7 @@
     ],
     "complemento": "/bandas/funesta.json",
     "cadastradoEm": "2025-07-30T23:51:08.880Z",
-    "ultimaAtualizacao": "2025-07-31T00:07:10.864Z",
+    "ultimaAtualizacao": "2025-07-31T10:54:04.112Z",
     "fontes": []
   }
 ]

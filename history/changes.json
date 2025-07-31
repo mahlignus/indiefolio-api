@@ -7,5 +7,14 @@
     "campos": [
       "generos"
     ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Funesta",
+    "timestamp": "2025-07-31T10:54:06.106Z",
+    "detalhes": "Banda atualizada: \"Funesta\" - campos alterados: descricao",
+    "campos": [
+      "descricao"
+    ]
   }
 ]

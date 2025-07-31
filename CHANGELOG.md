@@ -28,3 +28,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 31/07/2025 - 07:54:06
+
+### 🔄 Modificadas
+- Banda atualizada: "Funesta" - campos alterados: descricao
+
+---
+
