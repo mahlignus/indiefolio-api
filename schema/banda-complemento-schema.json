@@ -18,15 +18,18 @@
         "type": "object",
         "required": ["titulo", "ano", "tipo"],
         "properties": {
+          "capa": {
+            "type": "string",
+            "description": "Capa do disco (URL)"
+          },
           "titulo": {
             "type": "string",
             "minLength": 1,
-            "maxLength": 100
+            "maxLength": 200
           },
           "ano": {
             "type": "integer",
-            "minimum": 1950,
-            "maximum": 2030
+            "minimum": 1950
           },
           "tipo": {
             "type": "string",
@@ -41,7 +44,7 @@
             "items": {
               "type": "string",
               "minLength": 1,
-              "maxLength": 100
+              "maxLength": 200
             }
           },
           "links": {
@@ -205,6 +208,14 @@
         "type": "string",
         "minLength": 10,
         "maxLength": 300
+      }
+    },
+    "influencias": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 200
       }
     },
     "ultimaAtualizacao": {
