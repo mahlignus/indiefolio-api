@@ -4,7 +4,6 @@ const path = require("path");
 class TimestampUpdater {
   constructor() {
     this.bandasFile = path.join(__dirname, "..", "bandas.json");
-    this.previousDataFile = path.join(__dirname, "..", ".previous-bandas.json");
   }
 
   updateTimestamps() {
@@ -57,19 +56,13 @@ class TimestampUpdater {
   }
 
   loadPreviousData() {
-    if (!fs.existsSync(this.previousDataFile)) {
+    try {
+      const { execSync } = require("child_process");
+      const content = execSync("git show HEAD:bandas.json").toString();
+      return JSON.parse(content);
+    } catch (e) {
       return null;
     }
-    const content = fs.readFileSync(this.previousDataFile, "utf8");
-    return JSON.parse(content);
-  }
-
-  savePreviousData(data) {
-    fs.writeFileSync(
-      this.previousDataFile,
-      JSON.stringify(data, null, 2),
-      "utf8"
-    );
   }
 
   detectChanges(previous, current) {

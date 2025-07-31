@@ -8,9 +8,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Arquivos de estado interno
-.previous-bandas.json
-
 # Logs
 logs/
 *.log

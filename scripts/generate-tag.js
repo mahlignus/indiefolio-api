@@ -4,7 +4,6 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const bandasFile = path.join(__dirname, "..", "bandas.json");
-const previousFile = path.join(__dirname, "..", ".previous-bandas.json");
 const packageFile = path.join(__dirname, "..", "package.json");
 
 function readJSON(file) {
@@ -60,13 +59,21 @@ function detectChangeType(prev, curr) {
   return null;
 }
 
+function getPreviousFromGit() {
+  try {
+    const prevContent = execSync("git show HEAD:bandas.json").toString();
+    return JSON.parse(prevContent);
+  } catch (e) {
+    return null;
+  }
+}
+
 function main() {
-  if (!fs.existsSync(previousFile)) {
-    fs.copyFileSync(bandasFile, previousFile);
-    console.log("Primeira execução, salvando estado atual.");
+  const prev = getPreviousFromGit();
+  if (!prev) {
+    console.log("Nenhum commit anterior encontrado para bandas.json.");
     return;
   }
-  const prev = readJSON(previousFile);
   const curr = readJSON(bandasFile);
   const type = detectChangeType(prev, curr);
   if (!type) {
@@ -74,7 +81,6 @@ function main() {
     return;
   }
   const newVersion = updateVersion(type);
-  fs.copyFileSync(bandasFile, previousFile);
   // Cria tag git
   execSync(`git add package.json`);
   execSync(`git commit -m "chore: bump version to v${newVersion} [skip ci]"`);

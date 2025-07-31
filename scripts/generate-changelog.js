@@ -6,7 +6,6 @@ class ChangelogGenerator {
     this.bandasFile = path.join(__dirname, "..", "bandas.json");
     this.changelogFile = path.join(__dirname, "..", "CHANGELOG.md");
     this.historyFile = path.join(__dirname, "..", "history", "changes.json");
-    this.previousDataFile = path.join(__dirname, "..", ".previous-bandas.json");
   }
 
   generateChangelog() {
@@ -49,11 +48,13 @@ class ChangelogGenerator {
   }
 
   loadPreviousData() {
-    if (!fs.existsSync(this.previousDataFile)) {
+    try {
+      const { execSync } = require("child_process");
+      const content = execSync("git show HEAD:bandas.json").toString();
+      return JSON.parse(content);
+    } catch (e) {
       return null;
     }
-    const content = fs.readFileSync(this.previousDataFile, "utf8");
-    return JSON.parse(content);
   }
 
   detectDetailedChanges(previous, current) {
