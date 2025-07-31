@@ -425,5 +425,51 @@
     "cadastradoEm": "2025-07-28T21:32:38.095Z",
     "ultimaAtualizacao": "2025-07-28T22:03:12.107Z",
     "fontes": []
+  },
+  {
+    "nome": "Funesta",
+    "descricao": "Somos uma banda de Doom Metal, que mistura outras subgêneros do metal, como o Death e Black metal. O guitarrista e o baixista tiveram a ideia fazer uma banda de Black Doom Metal e durante um show que aconteceu no Caos Bar em Porto Alegre, conheceram os outros integrantes.",
+    "anoFundacao": 2024,
+    "anoTermino": null,
+    "avatar": "https://drive.google.com/uc?export=view&id=1PG0N0WDLmWOkuWIxYfkvTYiPSEHaB6RI",
+    "formacaoAtual": [
+      {
+        "nome": "Bernardo",
+        "funcao": "Vocal"
+      },
+      {
+        "nome": "Gabriel",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Raiane",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Johann",
+        "funcao": "Baixo"
+      }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/funesta_oficial?igsh=MWpoZWY3aHoxZGRmag"
+    },
+    "contato": {
+      "email": "funesta.oficial@gmail.com",
+      "fone": "+55 51 989026902"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "doom",
+      "black",
+      "death metal"
+    ],
+    "complemento": "/bandas/funesta.json",
+    "cadastradoEm": "2025-07-30T23:51:08.880Z",
+    "ultimaAtualizacao": "2025-07-31T00:07:10.864Z",
+    "fontes": []
   }
 ]
