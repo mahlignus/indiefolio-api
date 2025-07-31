@@ -60,7 +60,7 @@ function detectChangeType(prev, curr) {
 
 function getPreviousFromGit() {
   try {
-    const prevContent = execSync("git show HEAD~1:bandas.json").toString();
+    const prevContent = execSync("git show origin/main:bandas.json").toString();
     return JSON.parse(prevContent);
   } catch (e) {
     return null;

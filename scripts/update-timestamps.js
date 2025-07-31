@@ -58,7 +58,7 @@ class TimestampUpdater {
   loadPreviousData() {
     try {
       const { execSync } = require("child_process");
-      const content = execSync("git show HEAD~1:bandas.json").toString();
+      const content = execSync("git show origin/main:bandas.json").toString();
       return JSON.parse(content);
     } catch (e) {
       return null;
