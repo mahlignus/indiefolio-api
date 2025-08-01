@@ -11,6 +11,7 @@
     "check-file-names": "node scripts/validate-complementary.js --check-names",
     "update-timestamps": "node scripts/update-timestamps.js",
     "generate-changelog": "node scripts/generate-changelog.js",
+    "genres-to-lowercase": "node scripts/genres-to-lowercase.js",
     "prepare": "husky install",
     "pre-commit": "npm run validate && npm run genres-to-lowercase && npm run update-timestamps && npm run generate-changelog && git add bandas.json CHANGELOG.md history/",
     "generate-tag": "node scripts/generate-tag.js"

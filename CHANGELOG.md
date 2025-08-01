@@ -35,3 +35,11 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 01/08/2025 - 18:10:36
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Os Aciderais" de Porto Alegre, RS
+- Nova banda adicionada: "IRROTULÁVEIS" de Porto Alegre, RS
+
+---
+

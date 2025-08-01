@@ -16,5 +16,33 @@
     "campos": [
       "descricao"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Os Aciderais",
+    "timestamp": "2025-08-01T21:10:36.866Z",
+    "detalhes": "Nova banda adicionada: \"Os Aciderais\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "rock psicodélico",
+        "blues rock",
+        "rock de percepção"
+      ],
+      "anoFundacao": 2022
+    }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "IRROTULÁVEIS",
+    "timestamp": "2025-08-01T21:10:36.866Z",
+    "detalhes": "Nova banda adicionada: \"IRROTULÁVEIS\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "rock",
+        "rock nacional",
+        "rock gaúcho"
+      ],
+      "anoFundacao": 2024
+    }
   }
 ]

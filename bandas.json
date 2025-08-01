@@ -471,5 +471,106 @@
     "cadastradoEm": "2025-07-30T23:51:08.880Z",
     "ultimaAtualizacao": "2025-07-31T10:54:04.112Z",
     "fontes": []
+  },
+  {
+    "nome": "Os Aciderais",
+    "descricao": "Viajar é impreciso! No ano de 2023 ocorre a união de quatro seres de diferentes espaços e tempos formando a banda gaúcha Os Aciderais. Uma conjunção interestelar com influências setentistas e que explode em um rock de percepção. Para Homero Pivotto Jr. do site Scream & Yell: “Para viajar na música não é preciso ir ao espaço sideral. Basta ouvir a psicodelia groovada d’Os Aciderais”. Em 2025 lançam seu primeiro EP pelo Estúdio Casa de Insetos, produzido e masterizado pelo artista gaúcho de música experimental, Maestro Sujo. Sua sonoridade caleidoscópica desbrava o cotidiano boêmio, a poética da vida, morte e outras translações interplanetárias. No palco, a vocalista Anny, com sua vibração teatral flutua em uma órbita sonora em consonância com o guitarrista Giovanni, a baixista Letícia e o baterista Jefferson, que buscam transmitir a cada apresentação uma experiência visceral.",
+    "anoFundacao": 2022,
+    "anoTermino": null,
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb43e0573fcc41cac752902a29",
+    "formacaoAtual": [
+      {
+        "nome": "Anny Almeida",
+        "funcao": "Vocal"
+      },
+      {
+        "nome": "Giovanni Bagatini Cachuço",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Jeferson Mello",
+        "funcao": "Bateria"
+      },
+      {
+        "nome": "Letícia Sottoriva",
+        "funcao": "Baixo"
+      }
+    ],
+    "social": {
+      "linktree": "https://linktr.ee/osaciderais",
+      "instagram": "https://www.instagram.com/os.aciderais/",
+      "spotify": "https://open.spotify.com/intl-pt/artist/0uHKIKGqbsTAm7pvdS3MGE?si=Mp3H2mi7R5C_GE2kmZ3xSA"
+    },
+    "contato": {
+      "email": "os.aciderais@gmail.com",
+      "fone": "+55 51 99765-0079"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "rock psicodélico",
+      "blues rock",
+      "rock de percepção"
+    ],
+    "complemento": "/bandas/osaciderais.json",
+    "cadastradoEm": "2025-08-01T16:46:19.381Z",
+    "ultimaAtualizacao": "2025-08-01T21:10:34.893Z",
+    "fontes": []
+  },
+  {
+    "nome": "IRROTULÁVEIS",
+    "descricao": "Fundada em 2024, IRROTULÁVEIS é uma banda de rock autoral que apresenta um rock novo, com melodias marcantes e letras profundas que provocam reflexão. As músicas exploram as distorções da vida moderna, questionando padrões, comportamentos e a forma como estamos nos relacionando com o mundo. Na contramão do automático, a banda aposta num rock feito à mão, artesanal, valorizando a expressão humana. A formação conta com Ed (compositor e vocais), Edu (multi-instrumentista na guitarra), Jean Cavazzoto (multi-instrumentista no baixo e backing vocals), Pablo Diniz (teclado) e Valmir Abel (bateria).",
+    "anoFundacao": 2024,
+    "anoTermino": null,
+    "avatar": "https://lh3.googleusercontent.com/pw/AP1GczNmVy3mp8R0261BiUgW1G4-rRsh1m80IKBoSIzj1OoXYje-MgHoDmCWfJn1fgit-kDGrot13JWiKWUwCpcpbKPKXPVw0-E3WjnVUz82gJbJ_OX_ZWpGubi1kqcLVTI_hoYHsz-ZtlAQaxahHNi3GA3ICQ=w924-h924-s-no-gm?authuser=0",
+    "formacaoAtual": [
+      {
+        "nome": "Edgar Schramm",
+        "funcao": "Cantor e Compositor"
+      },
+      {
+        "nome": "Eduardo N’vs",
+        "funcao": "Guitarrista"
+      },
+      {
+        "nome": "Jean Cavazzoto",
+        "funcao": "Baixista e Backing Vocal"
+      },
+      {
+        "nome": "Pablo Dinizz",
+        "funcao": "Tecladista"
+      },
+      {
+        "nome": "Valmir Abel",
+        "funcao": "Baterista"
+      }
+    ],
+    "social": {
+      "spotify": "https://open.spotify.com/artist/0IjzBCa5DVQZvTUgMKeFR4?si=t2kHw_SbR5W4Hm_48ivUmw",
+      "instagram": "https://www.instagram.com/bandairrotulaveis/",
+      "tiktok": "https://www.tiktok.com/@irrotulaveis",
+      "youtube": "https://youtube.com/@bandairrotulaveis?si=DfrqUzZQYI3GvpIQ"
+    },
+    "contato": {
+      "email": "irrotulaveisbanda@gmail.com",
+      "fone": "+55 51 991767299"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "rock",
+      "rock nacional",
+      "rock gaúcho"
+    ],
+    "complemento": "/bandas/irrotulaveis.json",
+    "cadastradoEm": "2025-08-01T19:24:32.491Z",
+    "ultimaAtualizacao": "2025-08-01T21:10:34.893Z",
+    "fontes": []
   }
 ]
