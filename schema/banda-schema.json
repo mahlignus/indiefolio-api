@@ -21,7 +21,6 @@
       },
       "descricao": {
         "type": "string",
-        "minLength": 10,
         "maxLength": 1500,
         "description": "Descrição da banda, história, estilo"
       },
