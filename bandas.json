@@ -572,5 +572,54 @@
     "cadastradoEm": "2025-08-01T19:24:32.491Z",
     "ultimaAtualizacao": "2025-08-01T21:10:34.893Z",
     "fontes": []
+  },
+  {
+    "nome": "Herro Crasso",
+    "descricao": "",
+    "anoFundacao": 2022,
+    "anoTermino": null,
+    "avatar": "https://drive.google.com/uc?export=view&id=1kvhw8bdjFA7QSeMQEyZTwo0j8geWxZoK",
+    "formacaoAtual": [
+      {
+        "nome": "Luiz",
+        "funcao": "Vocal"
+      },
+      {
+        "nome": "Matheus",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "John",
+        "funcao": "Guitarra"
+      },
+      {
+        "nome": "Vini",
+        "funcao": "Baixo"
+      },
+      {
+        "nome": "Nolan",
+        "funcao": "Bateria"
+      }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/herrocrasso"
+    },
+    "contato": {
+      "email": "herrocrasso@outlook.com.br",
+      "fone": ""
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Canoas"
+    },
+    "generos": [
+      "hard core",
+      "punk rock"
+    ],
+    "complemento": "/bandas/herrocrasso.json",
+    "cadastradoEm": "2025-08-08T21:46:24.339Z",
+    "ultimaAtualizacao": "2025-08-08T21:51:29.757Z",
+    "fontes": []
   }
 ]

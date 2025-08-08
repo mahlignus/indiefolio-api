@@ -44,5 +44,18 @@
       ],
       "anoFundacao": 2024
     }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Herro Crasso",
+    "timestamp": "2025-08-08T21:51:31.792Z",
+    "detalhes": "Nova banda adicionada: \"Herro Crasso\" de Canoas, RS",
+    "data": {
+      "generos": [
+        "hard core",
+        "punk rock"
+      ],
+      "anoFundacao": 2022
+    }
   }
 ]

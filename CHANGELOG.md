@@ -43,3 +43,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 08/08/2025 - 18:51:31
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Herro Crasso" de Canoas, RS
+
+---
+
