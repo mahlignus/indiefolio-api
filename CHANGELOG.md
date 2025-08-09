@@ -50,3 +50,16 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 09/08/2025 - 19:18:42
+
+### 🔄 Modificadas
+- Banda atualizada: "Lokos D' Bira" - campos alterados: emailCadastro
+- Banda atualizada: "Flyleaves" - campos alterados: emailCadastro
+- Banda atualizada: "Saudades Robson" - campos alterados: emailCadastro
+- Banda atualizada: "Petardo 69" - campos alterados: emailCadastro
+- Banda atualizada: "Guimas" - campos alterados: emailCadastro
+- Banda atualizada: "Funesta" - campos alterados: emailCadastro
+- Banda atualizada: "IRROTULÁVEIS" - campos alterados: emailCadastro
+
+---
+

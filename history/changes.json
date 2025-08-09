@@ -57,5 +57,68 @@
       ],
       "anoFundacao": 2022
     }
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Lokos D' Bira",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"Lokos D' Bira\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Flyleaves",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"Flyleaves\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Saudades Robson",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"Saudades Robson\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Petardo 69",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"Petardo 69\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Guimas",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"Guimas\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Funesta",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"Funesta\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "IRROTULÁVEIS",
+    "timestamp": "2025-08-09T22:18:42.733Z",
+    "detalhes": "Banda atualizada: \"IRROTULÁVEIS\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
   }
 ]
