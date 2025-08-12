@@ -1,0 +1,40 @@
+{
+  "totalBandas": 14,
+  "totalArtistasSolo": 0,
+  "totalGeneros": 25,
+  "totalCidades": 5,
+  "generos": {
+    "rock": 8,
+    "punk": 3,
+    "emo": 3,
+    "punk rock": 3,
+    "grunge": 2,
+    "alternativo": 2,
+    "blues rock": 2,
+    "blues": 1,
+    "garage rock": 1,
+    "hardcore": 1,
+    "pós punk": 1,
+    "progressivo": 1,
+    "samba": 1,
+    "funk": 1,
+    "pop": 1,
+    "balada": 1,
+    "indie": 1,
+    "doom": 1,
+    "black": 1,
+    "death metal": 1,
+    "rock psicodélico": 1,
+    "rock de percepção": 1,
+    "rock nacional": 1,
+    "rock gaúcho": 1,
+    "hard core": 1
+  },
+  "cidades": {
+    "Porto Alegre, RS": 9,
+    "Canoas, RS": 2,
+    "Esteio, RS": 1,
+    "Sapucaia do Sul, RS": 1,
+    "São Leopoldo, RS": 1
+  }
+}

@@ -14,8 +14,9 @@
     "generate-changelog": "node scripts/generate-changelog.js",
     "genres-to-lowercase": "node scripts/genres-to-lowercase.js",
     "prepare": "husky install",
-    "pre-commit": "npm run validate && npm run genres-to-lowercase && npm run update-timestamps && npm run generate-changelog && git add bandas.json CHANGELOG.md history/",
-    "generate-tag": "node scripts/generate-tag.js"
+    "generate-tag": "node scripts/generate-tag.js",
+    "generate-statistics": "node scripts/generate-statistics.js && git add estatisticas.json && git commit -m 'feat: atualiza estatísticas'",
+    "pre-commit": "npm run validate && npm run genres-to-lowercase && npm run update-timestamps && npm run generate-changelog && git add bandas.json CHANGELOG.md history/"
   },
   "keywords": [
     "bandas",
