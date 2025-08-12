@@ -628,5 +628,49 @@
     "cadastradoEm": "2025-08-08T21:46:24.339Z",
     "ultimaAtualizacao": "2025-08-08T21:51:29.757Z",
     "fontes": []
+  },
+  {
+    "nome": "Quarto Imaginário",
+    "descricao": "Quarto Imaginário é uma banda de emo/rock alternativo de Porto Alegre/RS. Formada em 2014, atualmente conta com PaNNo (voz e guitarra), Jô (guitarra e vocais de apoio) e Edi Morais (bateria). Inicialmente trazendo referências de bandas como The Dear Hunter e From Indian Lakes, formaram o seu primeiro trabalho com o album \"O Ciclo\", um disco conceitual que conta uma história do início ao fim, em que acompanhamos personagens e os desfechos de suas vidas. A narrativa foi inspirada em fatos e foi escrita buscando trazer à tona questionamentos sobre a vida e as pressões internas e externas que sofremos. No seu projeto mais recente, a banda se reinventa, trazendo sua paixão por bandas das primeiras ondas emo, resultando em um som explosivo, mas cheio de sentimento. Referências como Fall Out Boy, Taking Back Sunday, Motion City Soundtrack e Panic! at the Disco permeiam esse novo trabalho. O novo EP \"Escolhas\" conta com 6 faixas que exploram a gama de sentimentos que acompanham as mudanças e impactos que cada decisão tem na nossa vida. As músicas foram gravadas e produzidas em casa pela banda.",
+    "anoFundacao": 2014,
+    "anoTermino": null,
+    "avatar": "https://i.scdn.co/image/ab6761670000ecd4c2e962c08298982d9207ad3c",
+    "formacaoAtual": [
+      {
+        "nome": "PaNNo",
+        "funcao": "Voz e Guitarra"
+      },
+      {
+        "nome": "Jô",
+        "funcao": "Guitarra e voz"
+      },
+      {
+        "nome": "Edi",
+        "funcao": "Bateria"
+      }
+    ],
+    "social": {
+      "instagram": "https://instagram.com/quarto.imaginario",
+      "youtube": "https://www.youtube.com/@oquartoimaginario",
+      "tiktok": "https://tiktok.com/@quarto_imaginario",
+      "spotify": "https://open.spotify.com/intl-pt/artist/5NaesHERkE4ceaAtzdiV00?si=RuEhK4ZESkeyNtPVAki5rw"
+    },
+    "contato": {
+      "email": "oquartoimaginario@gmail.com",
+      "fone": "51992481543"
+    },
+    "local": {
+      "pais": "Brasil",
+      "estado": "RS",
+      "cidade": "Porto Alegre"
+    },
+    "generos": [
+      "emo"
+    ],
+    "complemento": "/bandas/quartoimaginario.json",
+    "emailCadastro": "paninhocreycrey@gmail.com",
+    "cadastradoEm": "2025-08-12T12:14:08.606Z",
+    "ultimaAtualizacao": "2025-08-12T15:08:00.028Z",
+    "fontes": []
   }
 ]

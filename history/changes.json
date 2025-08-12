@@ -120,5 +120,17 @@
     "campos": [
       "emailCadastro"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Quarto Imaginário",
+    "timestamp": "2025-08-12T15:08:02.050Z",
+    "detalhes": "Nova banda adicionada: \"Quarto Imaginário\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "emo"
+      ],
+      "anoFundacao": 2014
+    }
   }
 ]

@@ -63,3 +63,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 12/08/2025 - 12:08:02
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Quarto Imaginário" de Porto Alegre, RS
+
+---
+
