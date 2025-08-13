@@ -132,5 +132,32 @@
       ],
       "anoFundacao": 2014
     }
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "PunkRockets",
+    "timestamp": "2025-08-13T21:30:44.189Z",
+    "detalhes": "Banda atualizada: \"PunkRockets\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Cabala",
+    "timestamp": "2025-08-13T21:30:44.189Z",
+    "detalhes": "Banda atualizada: \"Cabala\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Jéssica Jennifer",
+    "timestamp": "2025-08-13T21:30:44.189Z",
+    "detalhes": "Banda atualizada: \"Jéssica Jennifer\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
   }
 ]

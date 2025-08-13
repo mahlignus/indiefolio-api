@@ -70,3 +70,12 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 13/08/2025 - 18:30:44
+
+### 🔄 Modificadas
+- Banda atualizada: "PunkRockets" - campos alterados: emailCadastro
+- Banda atualizada: "Cabala" - campos alterados: emailCadastro
+- Banda atualizada: "Jéssica Jennifer" - campos alterados: emailCadastro
+
+---
+
