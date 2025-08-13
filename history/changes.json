@@ -159,5 +159,14 @@
     "campos": [
       "emailCadastro"
     ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Flyleaves",
+    "timestamp": "2025-08-13T22:15:01.344Z",
+    "detalhes": "Banda atualizada: \"Flyleaves\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
   }
 ]

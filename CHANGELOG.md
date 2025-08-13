@@ -79,3 +79,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 13/08/2025 - 19:15:01
+
+### 🔄 Modificadas
+- Banda atualizada: "Flyleaves" - campos alterados: emailCadastro
+
+---
+
