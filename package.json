@@ -1,6 +1,6 @@
 {
   "name": "indiefolio-api",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "description": "API pública opensource para bandas independentes brasileiras",
   "main": "index.js",
   "scripts": {
