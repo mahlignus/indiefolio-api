@@ -36,8 +36,10 @@ function updateVersion(type) {
 }
 
 function detectChangeType(prev, curr) {
-  const prevMap = new Map(prev.map((b) => [b.nome, b]));
-  const currMap = new Map(curr.map((b) => [b.nome, b]));
+  const prevArr = prev.data || [];
+  const currArr = curr.data || [];
+  const prevMap = new Map(prevArr.map((b) => [b.nome, b]));
+  const currMap = new Map(currArr.map((b) => [b.nome, b]));
   let added = false;
   let changed = false;
   for (const [nome] of currMap) {

@@ -5,7 +5,10 @@ const bandasFile = path.join(__dirname, "..", "bandas.json");
 
 function updateGenresToLowercase() {
   const content = fs.readFileSync(bandasFile, "utf8");
-  const bandas = JSON.parse(content);
+  let bandas = JSON.parse(content);
+  if (bandas && Array.isArray(bandas.data)) {
+    bandas = bandas.data;
+  }
 
   const updated = bandas.map((banda) => {
     if (Array.isArray(banda.generos)) {

@@ -34,6 +34,10 @@ class BandValidator {
         throw new Error(`JSON inválido: ${error.message}`);
       }
 
+      if (data && Array.isArray(data.data)) {
+        data = data.data;
+      }
+
       // Valida com o schema
       const isValid = this.validate(data);
 
@@ -104,7 +108,11 @@ class BandValidator {
 
   getStats(filePath) {
     const content = fs.readFileSync(filePath, "utf8");
-    const data = JSON.parse(content);
+    let data = JSON.parse(content);
+
+    if (data && Array.isArray(data.data)) {
+      data = data.data;
+    }
 
     const stats = {
       totalBandas: data.length,

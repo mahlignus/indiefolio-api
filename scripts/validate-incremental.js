@@ -108,6 +108,9 @@ class IncrementalValidator {
         let bandasData = [];
         try {
           bandasData = JSON.parse(fs.readFileSync(this.bandasFile, "utf8"));
+          if (bandasData && Array.isArray(bandasData.data)) {
+            bandasData = bandasData.data;
+          }
         } catch (error) {
           console.error("❌ Erro ao carregar bandas.json:", error.message);
           hasErrors = true;
@@ -170,7 +173,10 @@ class IncrementalValidator {
 
   validateCrossReferences() {
     try {
-      const bandasData = JSON.parse(fs.readFileSync(this.bandasFile, "utf8"));
+      let bandasData = JSON.parse(fs.readFileSync(this.bandasFile, "utf8"));
+      if (bandasData && Array.isArray(bandasData.data)) {
+        bandasData = bandasData.data;
+      }
 
       bandasData.forEach((banda) => {
         if (banda.complemento) {
