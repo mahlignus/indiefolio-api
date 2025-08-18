@@ -4,7 +4,9 @@ const path = require("path");
 function generateStatistics() {
   try {
     const bandasPath = path.join(__dirname, "..", "bandas.json");
-    const bandas = JSON.parse(fs.readFileSync(bandasPath, "utf8"));
+    const data = JSON.parse(fs.readFileSync(bandasPath, "utf8"));
+
+    const bandas = data && Array.isArray(data.data) ? data.data : data;
 
     let totalBandas = 0;
     let totalArtistasSolo = 0;

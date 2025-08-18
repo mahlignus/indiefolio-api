@@ -34,10 +34,6 @@ class BandValidator {
         throw new Error(`JSON inválido: ${error.message}`);
       }
 
-      if (data && Array.isArray(data.data)) {
-        data = data.data;
-      }
-
       // Valida com o schema
       const isValid = this.validate(data);
 
@@ -46,8 +42,8 @@ class BandValidator {
         throw new Error(`Validação falhou:\n${errors}`);
       }
 
-      // Validações customizadas
-      this.customValidations(data);
+      const bandasArray = data && Array.isArray(data.data) ? data.data : data;
+      this.customValidations(bandasArray);
 
       console.log("✅ Arquivo válido!");
       return true;
@@ -110,17 +106,15 @@ class BandValidator {
     const content = fs.readFileSync(filePath, "utf8");
     let data = JSON.parse(content);
 
-    if (data && Array.isArray(data.data)) {
-      data = data.data;
-    }
+    const bandasArray = data && Array.isArray(data.data) ? data.data : data;
 
     const stats = {
-      totalBandas: data.length,
-      bandasAtivas: data.filter((b) => !b.anoTermino).length,
-      bandasInativas: data.filter((b) => b.anoTermino).length,
-      estados: [...new Set(data.map((b) => b.local.estado))].sort(),
-      generos: [...new Set(data.flatMap((b) => b.generos))].sort(),
-      decadas: this.getDecadeStats(data),
+      totalBandas: bandasArray.length,
+      bandasAtivas: bandasArray.filter((b) => !b.anoTermino).length,
+      bandasInativas: bandasArray.filter((b) => b.anoTermino).length,
+      estados: [...new Set(bandasArray.map((b) => b.local.estado))].sort(),
+      generos: [...new Set(bandasArray.flatMap((b) => b.generos))].sort(),
+      decadas: this.getDecadeStats(bandasArray),
     };
 
     return stats;
