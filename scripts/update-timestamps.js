@@ -28,14 +28,12 @@ class TimestampUpdater {
 
       const updatedData = this.applyTimestampUpdates(currentData, changes);
 
-      // Salva arquivo atualizado
       fs.writeFileSync(
         this.bandasFile,
         JSON.stringify(updatedData, null, 2),
         "utf8"
       );
 
-      // Atualiza estado anterior
       this.savePreviousData(updatedData);
 
       console.log(`✅ Timestamps atualizados para ${changes.length} banda(s)`);
@@ -52,14 +50,16 @@ class TimestampUpdater {
 
   loadCurrentData() {
     const content = fs.readFileSync(this.bandasFile, "utf8");
-    return JSON.parse(content);
+    const data = JSON.parse(content);
+    return data;
   }
 
   loadPreviousData() {
     try {
       const { execSync } = require("child_process");
       const content = execSync("git show origin/main:bandas.json").toString();
-      return JSON.parse(content);
+      const data = JSON.parse(content);
+      return data;
     } catch (e) {
       return null;
     }
@@ -68,9 +68,17 @@ class TimestampUpdater {
   detectChanges(previous, current) {
     const changes = [];
 
-    // Cria mapas para facilitar comparação
-    const previousMap = new Map(previous.map((banda) => [banda.nome, banda]));
-    const currentMap = new Map(current.map((banda) => [banda.nome, banda]));
+    const previousArray =
+      previous && Array.isArray(previous.data) ? previous.data : previous;
+    const currentArray =
+      current && Array.isArray(current.data) ? current.data : current;
+
+    const previousMap = new Map(
+      previousArray.map((banda) => [banda.nome, banda])
+    );
+    const currentMap = new Map(
+      currentArray.map((banda) => [banda.nome, banda])
+    );
 
     // Detecta bandas adicionadas
     for (const [nome] of currentMap) {
@@ -102,16 +110,23 @@ class TimestampUpdater {
     const now = new Date().toISOString();
     const changedBands = new Set(changes.map((c) => c.banda));
 
-    return data.map((banda) => {
+    const bandasArray = data && Array.isArray(data.data) ? data.data : data;
+
+    const updatedBandas = bandasArray.map((banda) => {
       if (changedBands.has(banda.nome)) {
         return { ...banda, ultimaAtualizacao: now };
       }
       return banda;
     });
+
+    if (data && Array.isArray(data.data)) {
+      return { ...data, data: updatedBandas };
+    } else {
+      return updatedBandas;
+    }
   }
 }
 
-// Script principal
 if (require.main === module) {
   console.log("⏰ API Indiefolio - Atualizador de Timestamps");
   console.log("=".repeat(50));

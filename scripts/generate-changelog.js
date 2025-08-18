@@ -27,10 +27,8 @@ class ChangelogGenerator {
         return false;
       }
 
-      // Adiciona ao histórico
       this.addToHistory(changes);
 
-      // Atualiza CHANGELOG.md
       this.updateChangelogFile(changes);
 
       console.log(`✅ Changelog atualizado com ${changes.length} mudança(s)`);
@@ -44,14 +42,16 @@ class ChangelogGenerator {
 
   loadCurrentData() {
     const content = fs.readFileSync(this.bandasFile, "utf8");
-    return JSON.parse(content);
+    const data = JSON.parse(content);
+    return data;
   }
 
   loadPreviousData() {
     try {
       const { execSync } = require("child_process");
       const content = execSync("git show origin/main:bandas.json").toString();
-      return JSON.parse(content);
+      const data = JSON.parse(content);
+      return data;
     } catch (e) {
       return null;
     }
@@ -61,11 +61,18 @@ class ChangelogGenerator {
     const changes = [];
     const timestamp = new Date().toISOString();
 
-    // Cria mapas para facilitar comparação
-    const previousMap = new Map(previous.map((banda) => [banda.nome, banda]));
-    const currentMap = new Map(current.map((banda) => [banda.nome, banda]));
+    const previousArray =
+      previous && Array.isArray(previous.data) ? previous.data : previous;
+    const currentArray =
+      current && Array.isArray(current.data) ? current.data : current;
 
-    // Detecta bandas adicionadas
+    const previousMap = new Map(
+      previousArray.map((banda) => [banda.nome, banda])
+    );
+    const currentMap = new Map(
+      currentArray.map((banda) => [banda.nome, banda])
+    );
+
     for (const [nome, banda] of currentMap) {
       if (!previousMap.has(nome)) {
         changes.push({
@@ -200,7 +207,7 @@ class ChangelogGenerator {
 
     entry += "---\n\n";
 
-    // Insere no topo do changelog (após o cabeçalho)
+    // Insere no topo do changelog
     const lines = changelog.split("\n");
     const headerEnd = lines.findIndex(
       (line) =>
@@ -230,7 +237,6 @@ class ChangelogGenerator {
   }
 }
 
-// Script principal
 if (require.main === module) {
   console.log("📝 API Indiefolio - Gerador de Changelog");
   console.log("=".repeat(50));
