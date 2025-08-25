@@ -168,5 +168,14 @@
     "campos": [
       "emailCadastro"
     ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Os Aciderais",
+    "timestamp": "2025-08-25T13:41:09.914Z",
+    "detalhes": "Banda atualizada: \"Os Aciderais\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
   }
 ]

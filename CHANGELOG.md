@@ -86,3 +86,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 25/08/2025 - 10:41:09
+
+### 🔄 Modificadas
+- Banda atualizada: "Os Aciderais" - campos alterados: emailCadastro
+
+---
+
