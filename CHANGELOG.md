@@ -93,3 +93,13 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 25/08/2025 - 11:17:25
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Calabouço do Androide" de Porto Alegre, RS
+
+### 🔄 Modificadas
+- Banda atualizada: "Os Aciderais" - campos alterados: emailCadastro
+
+---
+

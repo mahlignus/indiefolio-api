@@ -528,7 +528,7 @@
       "complemento": "/bandas/osaciderais.json",
       "cadastradoEm": "2025-08-01T16:46:19.381Z",
       "emailCadastro": "os.aciderais@gmail.com",
-      "ultimaAtualizacao": "2025-08-25T13:41:07.920Z",
+      "ultimaAtualizacao": "2025-08-25T14:17:23.721Z",
       "fontes": []
     },
     {
@@ -676,6 +676,51 @@
       "emailCadastro": "paninhocreycrey@gmail.com",
       "cadastradoEm": "2025-08-12T12:14:08.606Z",
       "ultimaAtualizacao": "2025-08-12T15:08:00.028Z",
+      "fontes": []
+    },
+    {
+      "nome": "Calabouço do Androide",
+      "descricao": "Em um laboratório subterrâneo de bagulhices radioativas, o punk rock colidiu com a cultura pop e uma força despertou.\n\nNascido das frustrações e gloriosas desventuras da vida geek, O Calabouço do Androide surgiu como um grito de revolução—uma mistura de energia caótica, referências obscuras e riffes que ecoam dos corredores de Mordor as florestas de Hyrule..\n\nArmados com canções autorais que falam de perigosos MMOs, Kaijus, Robôs Gigantes e noites perdidas com Filmes Trash, e covers transformados em hinos nerds distorcidos, a banda invade eventos geeks, bares underground e todo os espaços culturais para espalhar o seu heroísmo sonoro.\n\nAtualmente a banda é formada pelo Feiticeiro Supremo, Saul Farias, o Ciborgue de Riffs Flamejantes, Felipe M.I., o Ninja Cósmico do Além, Vinnie Phael e Fabrício Duranti, o humano.",
+      "anoFundacao": 2025,
+      "anoTermino": null,
+      "avatar": "https://drive.google.com/uc?export=view&id=1M0dlokHK5NvN18DMBml-BLGZ5M5nZHhF",
+      "formacaoAtual": [
+        {
+          "nome": "Saul Farias",
+          "funcao": "Vocal e baixo"
+        },
+        {
+          "nome": "Felipe M.I.",
+          "funcao": "Guitarra e voz"
+        },
+        {
+          "nome": "Vinnie Phael",
+          "funcao": "Teclado e guitarra"
+        },
+        {
+          "nome": "Fabrício Duranti",
+          "funcao": "Bateria"
+        }
+      ],
+      "social": {
+        "instagram": "https://www.instagram.com/calaboucodoandroideoficial",
+        "youtube": "https://www.youtube.com/@calaboucodoandroideoficial"
+      },
+      "contato": {},
+      "local": {
+        "pais": "Brasil",
+        "estado": "RS",
+        "cidade": "Porto Alegre"
+      },
+      "generos": [
+        "rock",
+        "punk",
+        "pop"
+      ],
+      "complemento": "/bandas/calaboucodoandroide.json",
+      "emailCadastro": "saulx80@gmail.com",
+      "cadastradoEm": "2025-08-23T20:14:16.805Z",
+      "ultimaAtualizacao": "2025-08-25T14:17:23.721Z",
       "fontes": []
     }
   ]

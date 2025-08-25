@@ -177,5 +177,28 @@
     "campos": [
       "emailCadastro"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Calabouço do Androide",
+    "timestamp": "2025-08-25T14:17:25.714Z",
+    "detalhes": "Nova banda adicionada: \"Calabouço do Androide\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "rock",
+        "punk",
+        "pop"
+      ],
+      "anoFundacao": 2025
+    }
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Os Aciderais",
+    "timestamp": "2025-08-25T14:17:25.714Z",
+    "detalhes": "Banda atualizada: \"Os Aciderais\" - campos alterados: emailCadastro",
+    "campos": [
+      "emailCadastro"
+    ]
   }
 ]
