@@ -217,6 +217,37 @@
         "maxLength": 200
       }
     },
+    "linhaDoTempo": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ano", "evento"],
+        "properties": {
+          "dia": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 31
+          },
+          "mes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "ano": {
+            "type": "integer",
+            "minimum": 1950
+          },
+          "evento": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "descricao": {
+            "type": "string",
+            "maxLength": 50
+          }
+        }
+      }
+    },
     "ultimaAtualizacao": {
       "oneOf": [
         {
