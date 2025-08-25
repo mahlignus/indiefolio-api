@@ -243,7 +243,7 @@
           },
           "descricao": {
             "type": "string",
-            "maxLength": 50
+            "maxLength": 250
           }
         }
       }
