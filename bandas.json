@@ -722,6 +722,62 @@
       "cadastradoEm": "2025-08-23T20:14:16.805Z",
       "ultimaAtualizacao": "2025-08-25T14:17:23.721Z",
       "fontes": []
+    },
+    {
+      "nome": "Thomas Butterfly ",
+      "descricao": "Banda de rock clássico e progressivo de Porto Alegre, Brasil ",
+      "anoFundacao": 2020,
+      "anoTermino": null,
+      "avatar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO-8CJSByiQQNkch5h4DtGb5kEyRvQTOBPPOCQLSijfJecbcl_4P6uIW1r41XMfFKutp4ceFqfGqrjxqOVspDTfzg2A8oEsyU8jYywg5NQI0zcQTEIamI5bYcBrHSiDrBh8REq2nIrld0lxgWDnv4AGzvepcQZ007_mHixkHzO_E_uoQ/s220/thomas_pb_grande-modified.png",
+      "formacaoAtual": [
+        {
+          "nome": "Daniel Fontoura ",
+          "funcao": "Voz e bateria "
+        },
+        {
+          "nome": "Lauro Levandowski ",
+          "funcao": "Voz e guitarra "
+        },
+        {
+          "nome": "Marcelo Xogum",
+          "funcao": "Baixo e voz"
+        }
+      ],
+      "social": {
+        "site": "https://thomasbutterfly.blogspot.com/?m=1",
+        "linktree": "https://linktr.ee/thomasbutterfly",
+        "spotify": "https://open.spotify.com/artist/33KLxI9f3smymbpPwdNFzX?si=O7pP8MV2RIqm5boVJtg3gw",
+        "youtube": "https://youtube.com/@thomasbutterfly?si=YLJqIipn7riBqHm5",
+        "instagram": "https://www.instagram.com/thomasbutterfly",
+        "facebook": "https://www.facebook.com/share/1EQYC44yB9/",
+        "bandcamp": "https://www.bandcamp/thomasbutterfly",
+        "threads": "",
+        "deezer": "https://deezer.com/artist/thomasbutterfly",
+        "x": "https://x.com/thomasbutterfly",
+        "twitch": "",
+        "appleMusic": "https://music.apple.com/thomasbutterfly"
+      },
+      "contato": {
+        "email": "thomasbutterflyband@gmail.com",
+        "fone": "51 98281 8291"
+      },
+      "local": {
+        "pais": "Brasil",
+        "estado": "RS",
+        "cidade": "Porto Alegre "
+      },
+      "generos": [
+        "rock progressivo",
+        "classic rock",
+        "hard rock",
+        "pop rock",
+        "indie rock"
+      ],
+      "complemento": "/bandas/thomasbutterfly.json",
+      "emailCadastro": "thomasbutterflyband@gmail.com",
+      "cadastradoEm": "2025-08-30T04:48:03.641Z",
+      "ultimaAtualizacao": "2025-08-30T14:09:13.849Z",
+      "fontes": []
     }
   ]
 }

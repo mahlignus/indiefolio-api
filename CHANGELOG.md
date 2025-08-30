@@ -103,3 +103,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 30/08/2025 - 11:09:15
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Thomas Butterfly " de Porto Alegre , RS
+
+---
+

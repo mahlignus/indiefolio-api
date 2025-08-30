@@ -19,9 +19,9 @@ app.get("/", (req, res) => {
   res.send(menu);
 });
 
-app.get("/banda/:nome", (req, res) => {
+app.get("/bandas/:nome", (req, res) => {
   const nomeBanda = req.params.nome;
-  const filePath = path.join(__dirname, "bandas", `${nomeBanda}.json`);
+  const filePath = path.join(__dirname, "bandas", `${nomeBanda}`);
   console.log(`Tentando servir banda ${nomeBanda}:`, filePath);
   const stream = fs.createReadStream(filePath);
   stream.on("error", (err) => {
@@ -59,6 +59,6 @@ app.listen(port, () => {
   console.log("Acesse o menu de opções:");
   console.log("Menu de opções:");
   console.log(`1. Listar bandas: ${url}/bandas.json`);
-  console.log(`2. Obter informações de uma banda: ${url}/banda/:nome`);
+  console.log(`2. Obter informações de uma banda: ${url}/bandas/:nome`);
   console.log(`3. Obter estatísticas: ${url}/estatisticas.json`);
 });

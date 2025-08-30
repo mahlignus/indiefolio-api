@@ -200,5 +200,21 @@
     "campos": [
       "emailCadastro"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Thomas Butterfly ",
+    "timestamp": "2025-08-30T14:09:15.919Z",
+    "detalhes": "Nova banda adicionada: \"Thomas Butterfly \" de Porto Alegre , RS",
+    "data": {
+      "generos": [
+        "rock progressivo",
+        "classic rock",
+        "hard rock",
+        "pop rock",
+        "indie rock"
+      ],
+      "anoFundacao": 2020
+    }
   }
 ]
