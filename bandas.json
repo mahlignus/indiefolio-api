@@ -776,7 +776,53 @@
       "complemento": "/bandas/thomasbutterfly.json",
       "emailCadastro": "thomasbutterflyband@gmail.com",
       "cadastradoEm": "2025-08-30T04:48:03.641Z",
-      "ultimaAtualizacao": "2025-08-30T14:09:13.849Z",
+      "ultimaAtualizacao": "2025-08-30T14:19:10.631Z",
+      "fontes": []
+    },
+    {
+      "nome": "Celofones",
+      "descricao": "Banda de rock autoral de Porto Alegre, Brasil.\n",
+      "anoFundacao": 2025,
+      "anoTermino": null,
+      "avatar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghqZDon2h1zFxZ7NYu4Jm7EXj0_2sPWYK8Ziz-Mzi5A6NqCk8vncqmf1oxkdd8zzR3eOpxf5HMYD5bMIYwbqLdyPvlqjKc0tZ_HGZGddpiOI0226UdFKAhGVsTg9RFV_URVwQjsSON2QwGm01oSoRCY0K97tmoTiLpzKvbA2B7Micp61S7qAD9ly5rMs8/s1024/new%20logo%20png.png",
+      "formacaoAtual": [
+        {
+          "nome": "Lauro Levandowski ",
+          "funcao": "Voz e guitarra "
+        },
+        {
+          "nome": "Rodrigo Vizzotto ",
+          "funcao": "Baixo e voz"
+        },
+        {
+          "nome": "Wilson Alves ",
+          "funcao": "Bateria "
+        }
+      ],
+      "social": {
+        "site": "https://celofones.blogspot.com/?m=1",
+        "youtube": "https://www.youtube.com/@celofones",
+        "instagram": "https://www.instagram.com/celofones"
+      },
+      "contato": {
+        "email": "celofones@gmail.com",
+        "fone": "51982818291"
+      },
+      "local": {
+        "pais": "Brasil",
+        "estado": "RS",
+        "cidade": "Porto Alegre"
+      },
+      "generos": [
+        "rock",
+        "hard rock",
+        "progrock",
+        "indie rock"
+      ],
+      "complemento": "/bandas/celofones.json",
+      "emailCadastro": "celofones@gmail.com",
+      "cadastradoEm": "2025-08-30T04:19:58.485Z",
+      "ultimaAtualizacao": "2025-08-30T14:19:10.631Z",
       "fontes": []
     }
   ]

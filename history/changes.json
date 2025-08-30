@@ -216,5 +216,67 @@
       ],
       "anoFundacao": 2020
     }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Thomas Butterfly ",
+    "timestamp": "2025-08-30T14:14:33.211Z",
+    "detalhes": "Nova banda adicionada: \"Thomas Butterfly \" de Porto Alegre , RS",
+    "data": {
+      "generos": [
+        "rock progressivo",
+        "classic rock",
+        "hard rock",
+        "pop rock",
+        "indie rock"
+      ],
+      "anoFundacao": 2020
+    }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Celofones",
+    "timestamp": "2025-08-30T14:14:33.211Z",
+    "detalhes": "Nova banda adicionada: \"Celofones\" de Porto Alegre , RS",
+    "data": {
+      "generos": [
+        "rock",
+        "hard rock",
+        "progrock",
+        "indie rock"
+      ],
+      "anoFundacao": 2025
+    }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Thomas Butterfly ",
+    "timestamp": "2025-08-30T14:19:12.614Z",
+    "detalhes": "Nova banda adicionada: \"Thomas Butterfly \" de Porto Alegre , RS",
+    "data": {
+      "generos": [
+        "rock progressivo",
+        "classic rock",
+        "hard rock",
+        "pop rock",
+        "indie rock"
+      ],
+      "anoFundacao": 2020
+    }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Celofones",
+    "timestamp": "2025-08-30T14:19:12.614Z",
+    "detalhes": "Nova banda adicionada: \"Celofones\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "rock",
+        "hard rock",
+        "progrock",
+        "indie rock"
+      ],
+      "anoFundacao": 2025
+    }
   }
 ]

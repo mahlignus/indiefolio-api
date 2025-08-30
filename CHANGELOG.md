@@ -110,3 +110,19 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 30/08/2025 - 11:14:33
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Thomas Butterfly " de Porto Alegre , RS
+- Nova banda adicionada: "Celofones" de Porto Alegre , RS
+
+---
+
+## 30/08/2025 - 11:19:12
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Thomas Butterfly " de Porto Alegre , RS
+- Nova banda adicionada: "Celofones" de Porto Alegre, RS
+
+---
+
