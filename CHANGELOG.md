@@ -126,3 +126,16 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 02/09/2025 - 13:21:03
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Thomas Butterfly" de Porto Alegre, RS
+
+### 🔄 Modificadas
+- Banda atualizada: "Celofones" - campos alterados: formacaoAtual
+
+### ❌ Removidas
+- Banda removida: "Thomas Butterfly "
+
+---
+

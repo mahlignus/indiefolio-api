@@ -724,19 +724,19 @@
       "fontes": []
     },
     {
-      "nome": "Thomas Butterfly ",
-      "descricao": "Banda de rock clássico e progressivo de Porto Alegre, Brasil ",
+      "nome": "Thomas Butterfly",
+      "descricao": "Banda de rock clássico e progressivo de Porto Alegre, Brasil",
       "anoFundacao": 2020,
       "anoTermino": null,
       "avatar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO-8CJSByiQQNkch5h4DtGb5kEyRvQTOBPPOCQLSijfJecbcl_4P6uIW1r41XMfFKutp4ceFqfGqrjxqOVspDTfzg2A8oEsyU8jYywg5NQI0zcQTEIamI5bYcBrHSiDrBh8REq2nIrld0lxgWDnv4AGzvepcQZ007_mHixkHzO_E_uoQ/s220/thomas_pb_grande-modified.png",
       "formacaoAtual": [
         {
-          "nome": "Daniel Fontoura ",
-          "funcao": "Voz e bateria "
+          "nome": "Daniel Fontoura",
+          "funcao": "Voz e bateria"
         },
         {
-          "nome": "Lauro Levandowski ",
-          "funcao": "Voz e guitarra "
+          "nome": "Lauro Levandowski",
+          "funcao": "Voz e guitarra"
         },
         {
           "nome": "Marcelo Xogum",
@@ -764,7 +764,7 @@
       "local": {
         "pais": "Brasil",
         "estado": "RS",
-        "cidade": "Porto Alegre "
+        "cidade": "Porto Alegre"
       },
       "generos": [
         "rock progressivo",
@@ -776,7 +776,7 @@
       "complemento": "/bandas/thomasbutterfly.json",
       "emailCadastro": "thomasbutterflyband@gmail.com",
       "cadastradoEm": "2025-08-30T04:48:03.641Z",
-      "ultimaAtualizacao": "2025-08-30T14:19:10.631Z",
+      "ultimaAtualizacao": "2025-09-02T16:21:01.697Z",
       "fontes": []
     },
     {
@@ -787,16 +787,16 @@
       "avatar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghqZDon2h1zFxZ7NYu4Jm7EXj0_2sPWYK8Ziz-Mzi5A6NqCk8vncqmf1oxkdd8zzR3eOpxf5HMYD5bMIYwbqLdyPvlqjKc0tZ_HGZGddpiOI0226UdFKAhGVsTg9RFV_URVwQjsSON2QwGm01oSoRCY0K97tmoTiLpzKvbA2B7Micp61S7qAD9ly5rMs8/s1024/new%20logo%20png.png",
       "formacaoAtual": [
         {
-          "nome": "Lauro Levandowski ",
-          "funcao": "Voz e guitarra "
+          "nome": "Lauro Levandowski",
+          "funcao": "Voz e guitarra"
         },
         {
-          "nome": "Rodrigo Vizzotto ",
+          "nome": "Rodrigo Vizzotto",
           "funcao": "Baixo e voz"
         },
         {
-          "nome": "Wilson Alves ",
-          "funcao": "Bateria "
+          "nome": "Wilson Alves",
+          "funcao": "Bateria"
         }
       ],
       "social": {
@@ -822,7 +822,7 @@
       "complemento": "/bandas/celofones.json",
       "emailCadastro": "celofones@gmail.com",
       "cadastradoEm": "2025-08-30T04:19:58.485Z",
-      "ultimaAtualizacao": "2025-08-30T14:19:10.631Z",
+      "ultimaAtualizacao": "2025-09-02T16:21:01.697Z",
       "fontes": []
     }
   ]

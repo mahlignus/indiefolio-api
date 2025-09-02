@@ -278,5 +278,36 @@
       ],
       "anoFundacao": 2025
     }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Thomas Butterfly",
+    "timestamp": "2025-09-02T16:21:03.733Z",
+    "detalhes": "Nova banda adicionada: \"Thomas Butterfly\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "rock progressivo",
+        "classic rock",
+        "hard rock",
+        "pop rock",
+        "indie rock"
+      ],
+      "anoFundacao": 2020
+    }
+  },
+  {
+    "tipo": "REMOVIDA",
+    "banda": "Thomas Butterfly ",
+    "timestamp": "2025-09-02T16:21:03.733Z",
+    "detalhes": "Banda removida: \"Thomas Butterfly \""
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Celofones",
+    "timestamp": "2025-09-02T16:21:03.733Z",
+    "detalhes": "Banda atualizada: \"Celofones\" - campos alterados: formacaoAtual",
+    "campos": [
+      "formacaoAtual"
+    ]
   }
 ]
