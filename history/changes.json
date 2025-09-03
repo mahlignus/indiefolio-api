@@ -406,5 +406,19 @@
     "campos": [
       "avatar"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Baracy e os Miseráveis",
+    "timestamp": "2025-09-03T16:55:47.828Z",
+    "detalhes": "Nova banda adicionada: \"Baracy e os Miseráveis\" de Canoas, RS",
+    "data": {
+      "generos": [
+        "rock",
+        "pop",
+        "brega"
+      ],
+      "anoFundacao": 2013
+    }
   }
 ]

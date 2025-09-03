@@ -192,3 +192,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 03/09/2025 - 13:55:47
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Baracy e os Miseráveis" de Canoas, RS
+
+---
+

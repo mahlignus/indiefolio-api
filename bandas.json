@@ -914,6 +914,60 @@
       "cadastradoEm": "2025-09-02T04:20:58.485Z",
       "ultimaAtualizacao": "2025-09-03T12:19:26.026Z",
       "fontes": []
+    },
+    {
+      "nome": "Baracy e os Miseráveis",
+      "descricao": "Baracy e os Miseráveis é uma banda de música brasileira que nasceu em 2013, em Canoas/RS, entre ensaios despretensiosos com amigos. Suas canções exploram temas como amor, decepção, diversão, relacionamentos e amizades, com uma sonoridade que mistura jovem guarda-brega-psicodélica, rock'a'billy-pop-visceral e o clássico rock n' roll.",
+      "anoFundacao": 2013,
+      "anoTermino": null,
+      "avatar": "https://i.ibb.co/Qvf9T4fP/baracy.jpg",
+      "formacaoAtual": [
+        {
+          "nome": "Geison Baracy",
+          "funcao": "Voz"
+        },
+        {
+          "nome": "Eduardo Schwaab",
+          "funcao": "Bateria"
+        },
+        {
+          "nome": "Rodrigo Rysdyk",
+          "funcao": "Teclado"
+        },
+        {
+          "nome": "Jonas dos Santos",
+          "funcao": "Contrabaixo"
+        },
+        {
+          "nome": "Felipe Siqueira",
+          "funcao": "Guitarra e vocal"
+        },
+        {
+          "nome": "Cass Fraga",
+          "funcao": "Guitarra e vocal"
+        }
+      ],
+      "social": {
+        "instagram": "https://www.instagram.com/baracy_e_os_miseraveis",
+        "spotify": "https://open.spotify.com/intl-pt/artist/4geimOAk7PFBe5QB3rLCe6?si=397TwVPhRrigF1LJgEFJEw"
+      },
+      "contato": {
+        "fone": "51991902979"
+      },
+      "local": {
+        "pais": "Brasil",
+        "estado": "RS",
+        "cidade": "Canoas"
+      },
+      "generos": [
+        "rock",
+        "pop",
+        "brega"
+      ],
+      "complemento": "/bandas/baracyeosmiseraveis.json",
+      "cadastradoEm": "2025-09-03T12:19:26.026Z",
+      "ultimaAtualizacao": "2025-09-03T16:55:45.720Z",
+      "fontes": []
     }
   ]
 }
