@@ -365,5 +365,37 @@
     "campos": [
       "generos"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "HIGHERHEADS",
+    "timestamp": "2025-09-03T12:18:42.596Z",
+    "detalhes": "Nova banda adicionada: \"HIGHERHEADS\" de Esteio, RS",
+    "data": {
+      "generos": [],
+      "anoFundacao": 2018
+    }
+  },
+  {
+    "tipo": "REMOVIDA",
+    "banda": "Higher Heads",
+    "timestamp": "2025-09-03T12:18:42.596Z",
+    "detalhes": "Banda removida: \"Higher Heads\""
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "HIGHERHEADS",
+    "timestamp": "2025-09-03T12:19:28.168Z",
+    "detalhes": "Nova banda adicionada: \"HIGHERHEADS\" de Esteio, RS",
+    "data": {
+      "generos": [],
+      "anoFundacao": 2018
+    }
+  },
+  {
+    "tipo": "REMOVIDA",
+    "banda": "Higher Heads",
+    "timestamp": "2025-09-03T12:19:28.168Z",
+    "detalhes": "Banda removida: \"Higher Heads\""
   }
 ]

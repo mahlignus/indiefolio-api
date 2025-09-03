@@ -165,3 +165,23 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 03/09/2025 - 09:18:42
+
+### ✅ Adicionadas
+- Nova banda adicionada: "HIGHERHEADS" de Esteio, RS
+
+### ❌ Removidas
+- Banda removida: "Higher Heads"
+
+---
+
+## 03/09/2025 - 09:19:28
+
+### ✅ Adicionadas
+- Nova banda adicionada: "HIGHERHEADS" de Esteio, RS
+
+### ❌ Removidas
+- Banda removida: "Higher Heads"
+
+---
+
