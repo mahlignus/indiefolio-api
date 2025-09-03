@@ -866,10 +866,13 @@
         "estado": "PR",
         "cidade": "Curitiba"
       },
-      "generos": [],
+      "generos": [
+        "rock",
+        "rock alternativo"
+      ],
       "complemento": "/bandas/escambau.json",
       "cadastradoEm": "2025-09-02T04:19:58.485Z",
-      "ultimaAtualizacao": "2025-09-03T01:06:26.965Z",
+      "ultimaAtualizacao": "2025-09-03T01:08:59.434Z",
       "fontes": []
     },
     {

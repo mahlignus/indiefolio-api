@@ -1,10 +1,10 @@
 {
   "totalBandas": 19,
   "totalArtistasSolo": 0,
-  "totalGeneros": 31,
+  "totalGeneros": 32,
   "totalCidades": 6,
   "generos": {
-    "rock": 10,
+    "rock": 11,
     "punk": 4,
     "emo": 3,
     "punk rock": 3,
@@ -34,7 +34,8 @@
     "rock progressivo": 1,
     "classic rock": 1,
     "pop rock": 1,
-    "progrock": 1
+    "progrock": 1,
+    "rock alternativo": 1
   },
   "cidades": {
     "Porto Alegre, RS": 12,

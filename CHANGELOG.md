@@ -158,3 +158,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 02/09/2025 - 22:09:01
+
+### 🔄 Modificadas
+- Banda atualizada: "Escambau" - campos alterados: generos
+
+---
+

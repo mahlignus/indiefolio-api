@@ -356,5 +356,14 @@
     "campos": [
       "formacaoAtual"
     ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Escambau",
+    "timestamp": "2025-09-03T01:09:01.562Z",
+    "detalhes": "Banda atualizada: \"Escambau\" - campos alterados: generos",
+    "campos": [
+      "generos"
+    ]
   }
 ]
