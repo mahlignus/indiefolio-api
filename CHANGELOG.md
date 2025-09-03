@@ -185,3 +185,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 03/09/2025 - 12:03:09
+
+### 🔄 Modificadas
+- Banda atualizada: "Escambau" - campos alterados: avatar
+
+---
+

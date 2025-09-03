@@ -397,5 +397,14 @@
     "banda": "Higher Heads",
     "timestamp": "2025-09-03T12:19:28.168Z",
     "detalhes": "Banda removida: \"Higher Heads\""
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Escambau",
+    "timestamp": "2025-09-03T15:03:09.879Z",
+    "detalhes": "Banda atualizada: \"Escambau\" - campos alterados: avatar",
+    "campos": [
+      "avatar"
+    ]
   }
 ]
