@@ -309,5 +309,43 @@
     "campos": [
       "formacaoAtual"
     ]
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Escambau",
+    "timestamp": "2025-09-03T00:26:50.757Z",
+    "detalhes": "Nova banda adicionada: \"Escambau\" de Curitiba, PR",
+    "data": {
+      "generos": [],
+      "anoFundacao": 2009
+    }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Higher Heads",
+    "timestamp": "2025-09-03T00:26:50.757Z",
+    "detalhes": "Nova banda adicionada: \"Higher Heads\" de Esteio, RS",
+    "data": {
+      "generos": [],
+      "anoFundacao": 2018
+    }
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Flyleaves",
+    "timestamp": "2025-09-03T00:26:50.757Z",
+    "detalhes": "Banda atualizada: \"Flyleaves\" - campos alterados: cadastradoEm",
+    "campos": [
+      "cadastradoEm"
+    ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "PunkRockets",
+    "timestamp": "2025-09-03T00:26:50.757Z",
+    "detalhes": "Banda atualizada: \"PunkRockets\" - campos alterados: cadastradoEm",
+    "campos": [
+      "cadastradoEm"
+    ]
   }
 ]

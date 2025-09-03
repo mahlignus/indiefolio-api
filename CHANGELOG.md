@@ -139,3 +139,15 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 02/09/2025 - 21:26:50
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Escambau" de Curitiba, PR
+- Nova banda adicionada: "Higher Heads" de Esteio, RS
+
+### 🔄 Modificadas
+- Banda atualizada: "Flyleaves" - campos alterados: cadastradoEm
+- Banda atualizada: "PunkRockets" - campos alterados: cadastradoEm
+
+---
+

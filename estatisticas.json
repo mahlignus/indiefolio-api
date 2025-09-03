@@ -1,8 +1,8 @@
 {
-  "totalBandas": 17,
+  "totalBandas": 19,
   "totalArtistasSolo": 0,
   "totalGeneros": 31,
-  "totalCidades": 5,
+  "totalCidades": 6,
   "generos": {
     "rock": 10,
     "punk": 4,
@@ -38,9 +38,10 @@
   },
   "cidades": {
     "Porto Alegre, RS": 12,
+    "Esteio, RS": 2,
     "Canoas, RS": 2,
-    "Esteio, RS": 1,
     "Sapucaia do Sul, RS": 1,
-    "São Leopoldo, RS": 1
+    "São Leopoldo, RS": 1,
+    "Curitiba, PR": 1
   }
 }

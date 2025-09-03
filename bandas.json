@@ -91,9 +91,9 @@
         "garage rock"
       ],
       "complemento": "/bandas/flyleaves.json",
-      "cadastradoEm": "2025-07-18T00:00:00Z",
+      "cadastradoEm": "2025-07-18T00:00:01Z",
       "emailCadastro": "banda.flyleaves@gmail.com",
-      "ultimaAtualizacao": "2025-08-13T22:14:59.418Z",
+      "ultimaAtualizacao": "2025-09-03T00:26:48.591Z",
       "fontes": [
         "https://flyleaves.com.br"
       ]
@@ -236,9 +236,9 @@
         "punk rock"
       ],
       "complemento": "/bandas/punkrockets.json",
-      "cadastradoEm": "2025-07-25T12:34:10Z",
+      "cadastradoEm": "2025-07-25T12:34:11Z",
       "emailCadastro": "claramorales.fotografia@gmail.com",
-      "ultimaAtualizacao": "2025-08-13T21:30:42.200Z",
+      "ultimaAtualizacao": "2025-09-03T00:26:48.591Z",
       "fontes": []
     },
     {
@@ -823,6 +823,105 @@
       "emailCadastro": "celofones@gmail.com",
       "cadastradoEm": "2025-08-30T04:19:58.485Z",
       "ultimaAtualizacao": "2025-09-02T16:21:01.697Z",
+      "fontes": []
+    },
+    {
+      "nome": "Escambau",
+      "descricao": "",
+      "anoFundacao": 2009,
+      "anoTermino": null,
+      "avatar": "https://i.ibb.co/TBfM9bsM/image.png",
+      "formacaoAtual": [
+        {
+          "nome": "Giovanni Caruso",
+          "funcao": "Violão e voz"
+        },
+        {
+          "nome": "Maria Paraguaya",
+          "funcao": "Órgão e voz"
+        },
+        {
+          "nome": "Zo Tuzini",
+          "funcao": "Violão e voz"
+        },
+        {
+          "nome": "Yan Lemos",
+          "funcao": "Baixo e voz"
+        },
+        {
+          "nome": "Babi Age",
+          "funcao": "Bateria"
+        },
+        {
+          "nome": "Maurício Nassar",
+          "funcao": "Percussão"
+        },
+        {
+          "nome": "Nicolas Salazar",
+          "funcao": "Sax e flauta"
+        },
+        {
+          "nome": "Claudiney Lima",
+          "funcao": "Cello"
+        }
+      ],
+      "social": {
+        "instagram": "https://www.instagram.com/escambauoficial/",
+        "spotify": "https://open.spotify.com/intl-pt/artist/5A9wuZoMAlH0P2eFN7Fd7u?si=mXD9PUc1T0imT5eguCylag",
+        "appleMusic": "https://music.apple.com/br/artist/escambau/942458181",
+        "deezer": "https://www.deezer.com/br/artist/7105069",
+        "youtube": "https://www.youtube.com/@ESCAMBAUoficial"
+      },
+      "contato": {},
+      "local": {
+        "pais": "Brasil",
+        "estado": "PR",
+        "cidade": "Curitiba"
+      },
+      "generos": [],
+      "complemento": "/bandas/escambau.json",
+      "cadastradoEm": "2025-09-02T04:19:58.485Z",
+      "ultimaAtualizacao": "2025-09-03T00:26:48.591Z",
+      "fontes": []
+    },
+    {
+      "nome": "Higher Heads",
+      "descricao": "",
+      "anoFundacao": 2018,
+      "anoTermino": null,
+      "avatar": "https://i.ibb.co/sdX2sYTn/image.png",
+      "formacaoAtual": [
+        {
+          "nome": "Ricardo Santana",
+          "funcao": "Voz e guitarra"
+        },
+        {
+          "nome": "Vinicius Copetti",
+          "funcao": "Baixo"
+        },
+        {
+          "nome": "Henrique Girardi",
+          "funcao": "Bateria"
+        },
+        {
+          "nome": "Tiago Osório",
+          "funcao": "Guitarra solo"
+        }
+      ],
+      "social": {
+        "instagram": "https://instagram.com/higherheads_official",
+        "spotify": "https://open.spotify.com/intl-pt/artist/51Ql6jxQRK4r0TFOrsAnoB?si=NqvNJ0HgQRCeuxj_cGKnsQ"
+      },
+      "contato": {},
+      "local": {
+        "pais": "Brasil",
+        "estado": "RS",
+        "cidade": "Esteio"
+      },
+      "generos": [],
+      "complemento": "/bandas/higherheads.json",
+      "cadastradoEm": "2025-09-02T04:20:58.485Z",
+      "ultimaAtualizacao": "2025-09-03T00:26:48.591Z",
       "fontes": []
     }
   ]
