@@ -347,5 +347,14 @@
     "campos": [
       "cadastradoEm"
     ]
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Escambau",
+    "timestamp": "2025-09-03T01:06:29.129Z",
+    "detalhes": "Banda atualizada: \"Escambau\" - campos alterados: formacaoAtual",
+    "campos": [
+      "formacaoAtual"
+    ]
   }
 ]

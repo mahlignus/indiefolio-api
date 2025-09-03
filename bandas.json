@@ -834,35 +834,23 @@
       "formacaoAtual": [
         {
           "nome": "Giovanni Caruso",
-          "funcao": "Violão e voz"
+          "funcao": "Voz & guitarra base"
         },
         {
           "nome": "Maria Paraguaya",
-          "funcao": "Órgão e voz"
+          "funcao": "Voz, percussão & synth"
         },
         {
-          "nome": "Zo Tuzini",
-          "funcao": "Violão e voz"
+          "nome": "Zo Escambau",
+          "funcao": "Guitarra solo"
         },
         {
           "nome": "Yan Lemos",
-          "funcao": "Baixo e voz"
+          "funcao": "Baixo & voz"
         },
         {
           "nome": "Babi Age",
           "funcao": "Bateria"
-        },
-        {
-          "nome": "Maurício Nassar",
-          "funcao": "Percussão"
-        },
-        {
-          "nome": "Nicolas Salazar",
-          "funcao": "Sax e flauta"
-        },
-        {
-          "nome": "Claudiney Lima",
-          "funcao": "Cello"
         }
       ],
       "social": {
@@ -881,7 +869,7 @@
       "generos": [],
       "complemento": "/bandas/escambau.json",
       "cadastradoEm": "2025-09-02T04:19:58.485Z",
-      "ultimaAtualizacao": "2025-09-03T00:26:48.591Z",
+      "ultimaAtualizacao": "2025-09-03T01:06:26.965Z",
       "fontes": []
     },
     {
