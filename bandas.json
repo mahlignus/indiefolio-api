@@ -968,6 +968,44 @@
       "cadastradoEm": "2025-09-03T12:19:26.026Z",
       "ultimaAtualizacao": "2025-09-03T16:55:45.720Z",
       "fontes": []
+    },
+    {
+      "nome": "Jimi Barba",
+      "descricao": "Jimi Barba é compositor, cantor e multi-instrumentista. Nasceu em 1978, em Caxias do Sul, e morou 20 anos no Rio de Janeiro. Desde 2000, vive em Porto Alegre. Começou a tocar guitarra aos 12 anos de idade, mesma época que descobriu gosto pelo contrabaixo e pela bateria. Jimi tem mais de 30 composições que estão em processo de gravação. Com influências de Novos Baianos, Mutantes, Cazuza, Bob Dylan, Jimi Hendrix, David Bowie e Radiohead, entre outros clássicos, já foi integrante das bandas Cabala, entre 2019 e 2025, Chapeleiro Caduco, Os Sonáticos, Capitão Mutley, Barbas de Molho, Os Impossíveis e Velhas Barbas.",
+      "anoFundacao": 2017,
+      "anoTermino": null,
+      "avatar": "https://i.ibb.co/dJzCJKRc/Jimi-Barba-Capa-por-Clara-Morales.png",
+      "funcoes": [
+        "Compositor",
+        "Vocalista",
+        "Guitarrista",
+        "Baixista",
+        "Baterista"
+      ],
+      "social": {
+        "spotify": "https://open.spotify.com/intl-pt/artist/3VtpBuT0bnqIJdStTFSPlC?si=_Lnkb9nlRay7TIbwNeTT_Q",
+        "youtube": "https://youtube.com.br/jimibarba",
+        "instagram": "https://instagram.com/jimibarba",
+        "facebook": "https://facebook.com/jimibarba"
+      },
+      "contato": {
+        "email": "tiagoseidl@gmail.com",
+        "fone": "51 993311819"
+      },
+      "local": {
+        "pais": "Brasil",
+        "estado": "RS",
+        "cidade": "Porto Alegre"
+      },
+      "generos": [
+        "rock alternativo"
+      ],
+      "isSolo": true,
+      "complemento": "/bandas/jimibarba.json",
+      "emailCadastro": "tiagoseidl@gmail.com",
+      "cadastradoEm": "2025-09-12T20:57:24.227Z",
+      "ultimaAtualizacao": "2025-09-13T15:57:29.839Z",
+      "fontes": []
     }
   ]
 }

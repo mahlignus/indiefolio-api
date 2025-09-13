@@ -199,3 +199,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 13/09/2025 - 12:57:31
+
+### ✅ Adicionadas
+- Nova banda adicionada: "Jimi Barba" de Porto Alegre, RS
+
+---
+

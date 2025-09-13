@@ -1,6 +1,6 @@
 {
   "totalBandas": 20,
-  "totalArtistasSolo": 0,
+  "totalArtistasSolo": 1,
   "totalGeneros": 33,
   "totalCidades": 6,
   "generos": {
@@ -14,6 +14,7 @@
     "blues rock": 2,
     "hard rock": 2,
     "indie rock": 2,
+    "rock alternativo": 2,
     "blues": 1,
     "garage rock": 1,
     "hardcore": 1,
@@ -35,11 +36,10 @@
     "classic rock": 1,
     "pop rock": 1,
     "progrock": 1,
-    "rock alternativo": 1,
     "brega": 1
   },
   "cidades": {
-    "Porto Alegre, RS": 12,
+    "Porto Alegre, RS": 13,
     "Canoas, RS": 3,
     "Esteio, RS": 2,
     "Sapucaia do Sul, RS": 1,

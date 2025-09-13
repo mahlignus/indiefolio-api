@@ -420,5 +420,17 @@
       ],
       "anoFundacao": 2013
     }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "Jimi Barba",
+    "timestamp": "2025-09-13T15:57:31.937Z",
+    "detalhes": "Nova banda adicionada: \"Jimi Barba\" de Porto Alegre, RS",
+    "data": {
+      "generos": [
+        "rock alternativo"
+      ],
+      "anoFundacao": 2017
+    }
   }
 ]

@@ -81,14 +81,16 @@ class BandValidator {
 
       // Valida formação atual
       const membrosNomes = new Set();
-      banda.formacaoAtual.forEach((membro) => {
-        if (membrosNomes.has(membro.nome)) {
-          throw new Error(
-            `Banda "${banda.nome}": membro duplicado na formação: "${membro.nome}"`
-          );
-        }
-        membrosNomes.add(membro.nome);
-      });
+      if (banda.formacaoAtual?.length > 0) {
+        banda.formacaoAtual.forEach((membro) => {
+          if (membrosNomes.has(membro.nome)) {
+            throw new Error(
+              `Banda "${banda.nome}": membro duplicado na formação: "${membro.nome}"`
+            );
+          }
+          membrosNomes.add(membro.nome);
+        });
+      }
 
       // Valida timestamp
       const timestamp = new Date(banda.ultimaAtualizacao);

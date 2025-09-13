@@ -6,13 +6,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "nome",
-          "anoFundacao",
-          "formacaoAtual",
-          "local",
-          "ultimaAtualizacao"
-        ],
+        "required": ["nome", "anoFundacao", "local"],
         "properties": {
           "nome": {
             "type": "string",
@@ -75,7 +69,7 @@
               },
               "youtube": {
                 "type": "string",
-                "pattern": "^https://(www\\.)?youtube\\.com/.+"
+                "pattern": "https://(www\\.)?youtube\\.com(\\.[a-z]{2,})?/.+"
               },
               "spotify": {
                 "type": "string",
