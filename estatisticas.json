@@ -1,8 +1,8 @@
 {
   "totalBandas": 20,
-  "totalArtistasSolo": 1,
+  "totalArtistasSolo": 2,
   "totalGeneros": 33,
-  "totalCidades": 6,
+  "totalCidades": 7,
   "generos": {
     "rock": 12,
     "punk": 4,
@@ -44,6 +44,7 @@
     "Esteio, RS": 2,
     "Sapucaia do Sul, RS": 1,
     "São Leopoldo, RS": 1,
-    "Curitiba, PR": 1
+    "Curitiba, PR": 1,
+    "ALVARES MACHADO, SP": 1
   }
 }

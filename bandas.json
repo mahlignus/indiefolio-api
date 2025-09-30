@@ -1006,6 +1006,35 @@
       "cadastradoEm": "2025-09-12T20:57:24.227Z",
       "ultimaAtualizacao": "2025-09-13T15:57:29.839Z",
       "fontes": []
+    },
+    {
+      "nome": "KAMILLY SANTANA",
+      "descricao": "Kamilly Santana é uma cantora e compositora que vem conquistando espaço no cenário musical com sua voz marcante e sua identidade única no R&B. Unindo emoção, intensidade e autenticidade, sua música transmite sentimentos profundos e cria conexões reais com quem ouve.\n\nCom influências internacionais, mas sem perder sua essência brasileira, Kamilly traz frescor e personalidade a cada canção, se destacando como uma das novas promessas do R&B no Brasil. Seu novo single já está disponível em todas as plataformas e promete encantar quem busca músicas que tocam a alma.",
+      "anoFundacao": 2025,
+      "anoTermino": null,
+      "avatar": "https://i.ibb.co/4nXYpXwT/Whats-App-Image-2025-09-29-at-10-44-31.jpg",
+      "social": {
+        "youtube": "https://www.youtube.com/@itskamillysantana",
+        "instagram": "https://www.instagram.com/_iitska/",
+        "linktree": "https://linktr.ee/KAMILLYSANTANA?utm_source=linktree_profile_share&ltsid=7b1b74fb-06f8-4ca0-a911-a755a6bdf239",
+        "spotify": "https://open.spotify.com/intl-pt/artist/3qFlyFeI2wLxkFTBwnYJgq?si=ad4bwSBRRGGI7gWKjzZKXg"
+      },
+      "contato": {
+        "email": "itskamillysantana@gmail.com",
+        "fone": "18 991963141"
+      },
+      "local": {
+        "pais": "Brasil",
+        "estado": "SP",
+        "cidade": "ALVARES MACHADO"
+      },
+      "generos": [],
+      "isSolo": true,
+      "complemento": "/bandas/kamillysantana.json",
+      "emailCadastro": "tanialopesilario@gmail.com",
+      "cadastradoEm": "2025-09-30T11:10:20.875Z",
+      "ultimaAtualizacao": "2025-09-30T12:16:41.240Z",
+      "fontes": []
     }
   ]
 }

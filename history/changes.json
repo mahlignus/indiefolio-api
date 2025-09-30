@@ -432,5 +432,15 @@
       ],
       "anoFundacao": 2017
     }
+  },
+  {
+    "tipo": "ADICIONADA",
+    "banda": "KAMILLY SANTANA",
+    "timestamp": "2025-09-30T12:16:43.337Z",
+    "detalhes": "Nova banda adicionada: \"KAMILLY SANTANA\" de ALVARES MACHADO, SP",
+    "data": {
+      "generos": [],
+      "anoFundacao": 2025
+    }
   }
 ]
