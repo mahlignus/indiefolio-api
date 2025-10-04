@@ -1,12 +1,31 @@
 {
   "discografia": [],
   "videos": [
-    "https://www.youtube.com/watch?v=jLXNNUZoqiw"
+    "https://www.youtube.com/watch?v=jLXNNUZoqiw",
+    "https://www.youtube.com/watch?v=-yxlaNUyMgw",
+    "https://www.youtube.com/watch?v=lc-6iE4-6Ns"
   ],
   "formacoesAntigas": [],
-  "premios": [],
+  "premios": [
+    {
+      "premio": "Show de Talentos",
+      "ano": 2025,
+      "evento": "Show de Talentos",
+      "categoria": "Talento",
+      "posicao": "2º Lugar - Frango com Polenta"
+    },
+    {
+      "premio": "A Pior Banda Que Você Nunca Ouviu Falar",
+      "ano": 2025,
+      "evento": "",
+      "categoria": "",
+      "posicao": ""
+    }
+  ],
   "letrasDestacadas": [],
-  "curiosidades": [],
+  "curiosidades": [
+    "Robson era um amigo de infância de Douglas. Certo dia, ele decidiu dar grau a 220 km/h na Freeway e, infelizmente, acabou morrendo em um acidente envolvendo um quati e um sofá"
+  ],
   "ultimaAtualizacao": null,
   "fontes": []
 }

@@ -442,5 +442,15 @@
       "generos": [],
       "anoFundacao": 2025
     }
+  },
+  {
+    "tipo": "ALTERADA",
+    "banda": "Saudades Robson",
+    "timestamp": "2025-10-04T21:56:27.132Z",
+    "detalhes": "Banda atualizada: \"Saudades Robson\" - campos alterados: descricao, formacaoAtual",
+    "campos": [
+      "descricao",
+      "formacaoAtual"
+    ]
   }
 ]

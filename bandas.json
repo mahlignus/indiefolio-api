@@ -100,7 +100,7 @@
     },
     {
       "nome": "Saudades Robson",
-      "descricao": "Para Sartre, a existência precede a essência. Dito isso, Robson existe, existiu e existirá. Mas quem, ou o que, é Robson? Uma pessoa? Uma galinha? Uma fruta? Na verdade, bem como essas perguntas, Robson não importa. O que importa é que Saudades Robson é uma banda que mistura punk, hardcore e de tudo um pouco na sua essência. Formada por Igor Guazzelli (Baixo), Rafa Celaro (Guitarra e voz), Douglas Clezar (Guitarra e voz) e Vitor Rigotti (Bateria) Saudades Robson vem pra mostrar que mesmo com pouca qualidade, é possível ser uma banda.",
+      "descricao": "Para Sartre, a existência precede a essência. Dito isso, Robson existe, existiu e existirá. Mas quem, ou o que, é Robson? Uma pessoa? Uma galinha? Uma fruta? Na verdade, bem como essas perguntas, Robson não importa. O que importa é que Saudades Robson é uma banda que mistura punk, hardcore e de tudo um pouco na sua essência. Formada por Murilo Fontoura (Voz), Igor Guazzelli (Baixo), Rafa Celaro (Guitarra e voz), Douglas Clezar (Bateria), Saudades Robson vem pra mostrar que mesmo com pouca qualidade, é possível ser uma banda.",
       "anoFundacao": 2010,
       "anoTermino": null,
       "avatar": "https://i.scdn.co/image/ab6761610000e5eb56c35bfab0f8354780e550c8",
@@ -115,11 +115,11 @@
         },
         {
           "nome": "Douglas Clezar",
-          "funcao": "Guitarra e voz"
+          "funcao": "Bateria"
         },
         {
-          "nome": "Vitor Rigotti",
-          "funcao": "Bateria"
+          "nome": "Murilo Fontoura",
+          "funcao": "Voz"
         }
       ],
       "social": {
@@ -145,7 +145,7 @@
       "complemento": "/bandas/saudadesrobson.json",
       "cadastradoEm": "2025-07-19T16:35:10Z",
       "emailCadastro": "sddsrobson@gmail.com",
-      "ultimaAtualizacao": "2025-08-09T22:18:40.717Z",
+      "ultimaAtualizacao": "2025-10-04T21:56:24.902Z",
       "fontes": [
         "Spotify, Instagram e Youtube"
       ]

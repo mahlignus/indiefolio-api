@@ -213,3 +213,10 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 
 ---
 
+## 04/10/2025 - 18:56:27
+
+### 🔄 Modificadas
+- Banda atualizada: "Saudades Robson" - campos alterados: descricao, formacaoAtual
+
+---
+
